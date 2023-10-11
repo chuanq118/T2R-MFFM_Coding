@@ -30,3 +30,5 @@ for f in files:
     df.to_csv(path_or_buf=region_trajectories, header=False, lineterminator='\n', index=None)
     region_trajectories.flush()
 
+region_trajectories.close()
+
