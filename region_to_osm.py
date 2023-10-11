@@ -28,18 +28,34 @@ bounds.set('maxlon', osm_bounds.get('maxlon'))
 
 df = pd.read_csv(trajectories_file_path, header=None, names=['id', 'time', 'longitude', 'latitude'])
 
-id_counter = 10000
+trajectory_id_counter = 10000
+way_id_counter = 100000000
+
+way_map = {}
 
 # 遍历每个轨迹点 生成 node 节点
 for idx, row in df.iterrows():
-    id_counter += 1
+    trajectory_id_counter += 1
+    car_id = str(int(row['id']))
+    nid = str(trajectory_id_counter)
+    # 如果不存在此轨迹线,则初始化一个
+    if car_id not in way_map:
+        way_id_counter += 1
+        way_map[car_id] = etree.SubElement(osm, "way")
+        way_map[car_id].set('id', str(way_id_counter))
+        way_map[car_id].set('visible', 'true')
+        way_map[car_id].set('cid', car_id)
+    # 添加一个轨迹点
     node = etree.SubElement(osm, 'node')
-    node.set('id', str(id_counter))
+    node.set('id', nid)
     node.set('visible', 'true')
     node.set('timestamp', str(row['time']))
-    node.set('cid', str(int(row['id'])))
+    node.set('cid', car_id)
     node.set('lat', str(row['latitude']))
     node.set('lon', str(row['longitude']))
+    # 将轨迹点添加入轨迹线中
+    nd = etree.SubElement(way_map[car_id], "nd")
+    nd.set('ref', nid)
 
 with open(f'osm/{base_filename}.trajectories.osm', 'wb') as f:
     # 设置打印 XML 声明头 / 美化打印
