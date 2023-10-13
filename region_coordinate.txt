@@ -1,0 +1,4 @@
+min_latitude=39.3623147
+max_latitude=51.4548789
+min_longitude=-0.1453681
+max_longitude=16.2340827

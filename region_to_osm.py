@@ -3,11 +3,12 @@ import os.path
 from lxml import etree
 import pandas as pd
 
+fid = '5'
 # 以 OSM 的格式生成该区域内包含所有轨迹点的 XML 文件
-trajectories_file_path = "trajectory/1.trajectories.csv"
-osm_file_path = 'osm/1.osm'
+trajectories_file_path = f"trajectory/{fid}.trajectories.csv"
+osm_file_path = f'osm/{fid}.osm'
 
-base_filename = os.path.basename(osm_file_path).split(".")[0]
+# base_filename = os.path.basename(osm_file_path).split(".")[0]
 
 # 解析获取 bounds 区域数据
 osm_bounds = etree.parse(osm_file_path).getroot().find('bounds')
@@ -57,6 +58,6 @@ for idx, row in df.iterrows():
     nd = etree.SubElement(way_map[car_id], "nd")
     nd.set('ref', nid)
 
-with open(f'osm/{base_filename}.trajectories.osm', 'wb') as f:
+with open(f'osm/{fid}.trajectories.osm', 'wb') as f:
     # 设置打印 XML 声明头 / 美化打印
     doc.write(f, xml_declaration=True, pretty_print=True, encoding='utf-8')

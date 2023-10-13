@@ -1,0 +1,1552 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<osm version="1.0">
+  <bounds minlat="41.8485700" maxlat="41.8521200" minlon="12.4478100" maxlon="12.4541100"/>
+  <way id="100000001" visible="true" cid="105">
+    <nd ref="10001"/>
+    <nd ref="10002"/>
+    <nd ref="10003"/>
+    <nd ref="10004"/>
+    <nd ref="10005"/>
+    <nd ref="10006"/>
+    <nd ref="10007"/>
+    <nd ref="10008"/>
+    <nd ref="10009"/>
+    <nd ref="10010"/>
+    <nd ref="10011"/>
+    <nd ref="10012"/>
+    <nd ref="10013"/>
+    <nd ref="10014"/>
+    <nd ref="10015"/>
+    <nd ref="10016"/>
+    <nd ref="10017"/>
+    <nd ref="10018"/>
+    <nd ref="10019"/>
+    <nd ref="10020"/>
+    <nd ref="10021"/>
+    <nd ref="10022"/>
+    <nd ref="10023"/>
+    <nd ref="10024"/>
+    <nd ref="10025"/>
+    <nd ref="10026"/>
+    <nd ref="10027"/>
+    <nd ref="10028"/>
+    <nd ref="10029"/>
+    <nd ref="10030"/>
+    <nd ref="10031"/>
+    <nd ref="10032"/>
+    <nd ref="10033"/>
+    <nd ref="10034"/>
+    <nd ref="10035"/>
+    <nd ref="10036"/>
+    <nd ref="10037"/>
+    <nd ref="10038"/>
+    <nd ref="10039"/>
+    <nd ref="10040"/>
+    <nd ref="10041"/>
+    <nd ref="10042"/>
+    <nd ref="10043"/>
+    <nd ref="10044"/>
+    <nd ref="10045"/>
+    <nd ref="10046"/>
+    <nd ref="10047"/>
+    <nd ref="10048"/>
+    <nd ref="10049"/>
+    <nd ref="10050"/>
+    <nd ref="10051"/>
+    <nd ref="10052"/>
+    <nd ref="10053"/>
+    <nd ref="10054"/>
+    <nd ref="10055"/>
+    <nd ref="10056"/>
+    <nd ref="10057"/>
+    <nd ref="10058"/>
+    <nd ref="10059"/>
+    <nd ref="10060"/>
+    <nd ref="10061"/>
+    <nd ref="10062"/>
+    <nd ref="10063"/>
+    <nd ref="10064"/>
+    <nd ref="10065"/>
+    <nd ref="10066"/>
+    <nd ref="10067"/>
+    <nd ref="10068"/>
+    <nd ref="10069"/>
+    <nd ref="10070"/>
+    <nd ref="10071"/>
+    <nd ref="10072"/>
+    <nd ref="10073"/>
+    <nd ref="10074"/>
+    <nd ref="10075"/>
+    <nd ref="10076"/>
+    <nd ref="10077"/>
+    <nd ref="10078"/>
+    <nd ref="10079"/>
+    <nd ref="10080"/>
+    <nd ref="10081"/>
+    <nd ref="10082"/>
+    <nd ref="10083"/>
+    <nd ref="10084"/>
+    <nd ref="10085"/>
+    <nd ref="10086"/>
+    <nd ref="10087"/>
+    <nd ref="10088"/>
+    <nd ref="10089"/>
+    <nd ref="10090"/>
+    <nd ref="10091"/>
+    <nd ref="10092"/>
+    <nd ref="10093"/>
+    <nd ref="10094"/>
+    <nd ref="10095"/>
+    <nd ref="10096"/>
+    <nd ref="10097"/>
+    <nd ref="10098"/>
+    <nd ref="10099"/>
+    <nd ref="10100"/>
+    <nd ref="10101"/>
+    <nd ref="10102"/>
+    <nd ref="10103"/>
+    <nd ref="10104"/>
+    <nd ref="10105"/>
+    <nd ref="10106"/>
+    <nd ref="10107"/>
+    <nd ref="10108"/>
+    <nd ref="10109"/>
+    <nd ref="10110"/>
+    <nd ref="10111"/>
+    <nd ref="10112"/>
+    <nd ref="10113"/>
+    <nd ref="10114"/>
+    <nd ref="10115"/>
+    <nd ref="10116"/>
+    <nd ref="10117"/>
+    <nd ref="10118"/>
+    <nd ref="10119"/>
+    <nd ref="10120"/>
+    <nd ref="10121"/>
+    <nd ref="10122"/>
+    <nd ref="10123"/>
+    <nd ref="10124"/>
+    <nd ref="10125"/>
+    <nd ref="10126"/>
+    <nd ref="10127"/>
+    <nd ref="10128"/>
+    <nd ref="10129"/>
+    <nd ref="10130"/>
+    <nd ref="10131"/>
+    <nd ref="10132"/>
+    <nd ref="10133"/>
+    <nd ref="10134"/>
+    <nd ref="10135"/>
+    <nd ref="10136"/>
+    <nd ref="10137"/>
+    <nd ref="10138"/>
+    <nd ref="10139"/>
+    <nd ref="10140"/>
+    <nd ref="10141"/>
+    <nd ref="10142"/>
+    <nd ref="10143"/>
+    <nd ref="10144"/>
+    <nd ref="10145"/>
+    <nd ref="10146"/>
+    <nd ref="10147"/>
+    <nd ref="10148"/>
+    <nd ref="10149"/>
+    <nd ref="10150"/>
+    <nd ref="10151"/>
+    <nd ref="10152"/>
+    <nd ref="10153"/>
+    <nd ref="10154"/>
+    <nd ref="10155"/>
+    <nd ref="10156"/>
+    <nd ref="10157"/>
+    <nd ref="10158"/>
+    <nd ref="10159"/>
+    <nd ref="10160"/>
+    <nd ref="10161"/>
+    <nd ref="10162"/>
+    <nd ref="10163"/>
+    <nd ref="10164"/>
+    <nd ref="10165"/>
+    <nd ref="10166"/>
+    <nd ref="10167"/>
+    <nd ref="10168"/>
+    <nd ref="10169"/>
+    <nd ref="10170"/>
+    <nd ref="10171"/>
+    <nd ref="10172"/>
+    <nd ref="10173"/>
+    <nd ref="10174"/>
+    <nd ref="10175"/>
+    <nd ref="10176"/>
+    <nd ref="10177"/>
+    <nd ref="10178"/>
+    <nd ref="10179"/>
+    <nd ref="10180"/>
+    <nd ref="10181"/>
+    <nd ref="10182"/>
+    <nd ref="10183"/>
+    <nd ref="10184"/>
+    <nd ref="10185"/>
+    <nd ref="10186"/>
+    <nd ref="10187"/>
+    <nd ref="10188"/>
+    <nd ref="10189"/>
+    <nd ref="10190"/>
+    <nd ref="10191"/>
+    <nd ref="10192"/>
+    <nd ref="10193"/>
+    <nd ref="10194"/>
+    <nd ref="10195"/>
+    <nd ref="10196"/>
+    <nd ref="10197"/>
+    <nd ref="10198"/>
+    <nd ref="10199"/>
+    <nd ref="10200"/>
+    <nd ref="10201"/>
+    <nd ref="10202"/>
+    <nd ref="10203"/>
+    <nd ref="10204"/>
+    <nd ref="10205"/>
+    <nd ref="10206"/>
+    <nd ref="10207"/>
+    <nd ref="10208"/>
+    <nd ref="10209"/>
+    <nd ref="10210"/>
+    <nd ref="10211"/>
+    <nd ref="10212"/>
+    <nd ref="10213"/>
+    <nd ref="10214"/>
+    <nd ref="10215"/>
+    <nd ref="10216"/>
+    <nd ref="10217"/>
+    <nd ref="10218"/>
+    <nd ref="10219"/>
+    <nd ref="10220"/>
+    <nd ref="10221"/>
+    <nd ref="10222"/>
+    <nd ref="10223"/>
+    <nd ref="10224"/>
+    <nd ref="10225"/>
+    <nd ref="10226"/>
+    <nd ref="10227"/>
+    <nd ref="10228"/>
+    <nd ref="10229"/>
+    <nd ref="10230"/>
+    <nd ref="10231"/>
+    <nd ref="10232"/>
+    <nd ref="10233"/>
+    <nd ref="10234"/>
+    <nd ref="10235"/>
+    <nd ref="10236"/>
+    <nd ref="10237"/>
+    <nd ref="10238"/>
+    <nd ref="10239"/>
+    <nd ref="10240"/>
+    <nd ref="10241"/>
+    <nd ref="10242"/>
+    <nd ref="10243"/>
+    <nd ref="10244"/>
+    <nd ref="10245"/>
+    <nd ref="10246"/>
+    <nd ref="10247"/>
+    <nd ref="10248"/>
+    <nd ref="10249"/>
+    <nd ref="10250"/>
+    <nd ref="10251"/>
+    <nd ref="10252"/>
+    <nd ref="10253"/>
+    <nd ref="10254"/>
+    <nd ref="10255"/>
+    <nd ref="10256"/>
+    <nd ref="10257"/>
+    <nd ref="10258"/>
+    <nd ref="10259"/>
+    <nd ref="10260"/>
+    <nd ref="10261"/>
+    <nd ref="10262"/>
+    <nd ref="10263"/>
+    <nd ref="10264"/>
+    <nd ref="10265"/>
+    <nd ref="10266"/>
+    <nd ref="10267"/>
+    <nd ref="10268"/>
+    <nd ref="10269"/>
+    <nd ref="10270"/>
+    <nd ref="10271"/>
+    <nd ref="10272"/>
+    <nd ref="10273"/>
+    <nd ref="10274"/>
+    <nd ref="10275"/>
+    <nd ref="10276"/>
+    <nd ref="10277"/>
+    <nd ref="10278"/>
+    <nd ref="10279"/>
+    <nd ref="10280"/>
+    <nd ref="10281"/>
+    <nd ref="10282"/>
+    <nd ref="10283"/>
+    <nd ref="10284"/>
+    <nd ref="10285"/>
+    <nd ref="10286"/>
+    <nd ref="10287"/>
+    <nd ref="10288"/>
+    <nd ref="10289"/>
+    <nd ref="10290"/>
+    <nd ref="10291"/>
+    <nd ref="10292"/>
+    <nd ref="10293"/>
+    <nd ref="10294"/>
+    <nd ref="10295"/>
+    <nd ref="10296"/>
+    <nd ref="10297"/>
+    <nd ref="10298"/>
+    <nd ref="10299"/>
+    <nd ref="10300"/>
+    <nd ref="10301"/>
+    <nd ref="10302"/>
+    <nd ref="10303"/>
+    <nd ref="10304"/>
+    <nd ref="10305"/>
+    <nd ref="10306"/>
+    <nd ref="10307"/>
+    <nd ref="10308"/>
+    <nd ref="10309"/>
+    <nd ref="10310"/>
+    <nd ref="10311"/>
+    <nd ref="10312"/>
+    <nd ref="10313"/>
+    <nd ref="10314"/>
+    <nd ref="10315"/>
+    <nd ref="10316"/>
+    <nd ref="10317"/>
+    <nd ref="10318"/>
+    <nd ref="10319"/>
+    <nd ref="10320"/>
+    <nd ref="10321"/>
+    <nd ref="10322"/>
+    <nd ref="10323"/>
+    <nd ref="10324"/>
+    <nd ref="10325"/>
+    <nd ref="10326"/>
+    <nd ref="10327"/>
+    <nd ref="10328"/>
+    <nd ref="10329"/>
+  </way>
+  <node id="10001" visible="true" timestamp="1392008279610.0" cid="105" lat="41.8519239807498" lon="12.4488313087451"/>
+  <node id="10002" visible="true" timestamp="1392008289802.0" cid="105" lat="41.8512933041443" lon="12.4498877874872"/>
+  <node id="10003" visible="true" timestamp="1392008299301.0" cid="105" lat="41.8508212648688" lon="12.4513091819713"/>
+  <node id="10004" visible="true" timestamp="1392008309606.0" cid="105" lat="41.850370443152" lon="12.4526181787928"/>
+  <node id="10005" visible="true" timestamp="1392008319301.0" cid="105" lat="41.850463996202" lon="12.4526174208517"/>
+  <node id="10006" visible="true" timestamp="1392008329610.0" cid="105" lat="41.8511979732746" lon="12.4520822099452"/>
+  <node id="10007" visible="true" timestamp="1392008340934.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10008" visible="true" timestamp="1392008349703.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10009" visible="true" timestamp="1392008360203.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10010" visible="true" timestamp="1392008369601.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10011" visible="true" timestamp="1392008379270.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10012" visible="true" timestamp="1392008389612.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10013" visible="true" timestamp="1392008401625.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10014" visible="true" timestamp="1392008409322.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10015" visible="true" timestamp="1392008419284.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10016" visible="true" timestamp="1392008429276.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10017" visible="true" timestamp="1392008439278.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10018" visible="true" timestamp="1392008449631.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10019" visible="true" timestamp="1392008459309.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10020" visible="true" timestamp="1392008471403.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10021" visible="true" timestamp="1392008480428.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10022" visible="true" timestamp="1392008492119.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10023" visible="true" timestamp="1392008500890.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10024" visible="true" timestamp="1392008509707.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10025" visible="true" timestamp="1392008519308.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10026" visible="true" timestamp="1392008529628.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10027" visible="true" timestamp="1392008539305.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10028" visible="true" timestamp="1392008549605.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10029" visible="true" timestamp="1392008559598.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10030" visible="true" timestamp="1392008569964.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10031" visible="true" timestamp="1392008579267.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10032" visible="true" timestamp="1392008589270.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10033" visible="true" timestamp="1392008599746.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10034" visible="true" timestamp="1392008609598.0" cid="105" lat="41.8513692300728" lon="12.4519743890134"/>
+  <node id="10035" visible="true" timestamp="1392008619714.0" cid="105" lat="41.8514105548312" lon="12.4519805306029"/>
+  <node id="10036" visible="true" timestamp="1392008629272.0" cid="105" lat="41.8514105548312" lon="12.4519805306029"/>
+  <node id="10037" visible="true" timestamp="1392008639310.0" cid="105" lat="41.8514105548312" lon="12.4519805306029"/>
+  <node id="10038" visible="true" timestamp="1392008650683.0" cid="105" lat="41.8514205215166" lon="12.4519726876188"/>
+  <node id="10039" visible="true" timestamp="1392008659311.0" cid="105" lat="41.8514387448967" lon="12.45195827638"/>
+  <node id="10040" visible="true" timestamp="1392008669635.0" cid="105" lat="41.8514647314054" lon="12.4519708644657"/>
+  <node id="10041" visible="true" timestamp="1392008680016.0" cid="105" lat="41.8514775606754" lon="12.4519608979643"/>
+  <node id="10042" visible="true" timestamp="1392008689598.0" cid="105" lat="41.8514797235087" lon="12.4519230436221"/>
+  <node id="10043" visible="true" timestamp="1392008700727.0" cid="105" lat="41.8514630204086" lon="12.4519677156804"/>
+  <node id="10044" visible="true" timestamp="1392008709748.0" cid="105" lat="41.8514625412022" lon="12.4519802472052"/>
+  <node id="10045" visible="true" timestamp="1392008719609.0" cid="105" lat="41.8514794784784" lon="12.4519553722798"/>
+  <node id="10046" visible="true" timestamp="1392008731574.0" cid="105" lat="41.8514645130881" lon="12.4519630921458"/>
+  <node id="10047" visible="true" timestamp="1392008739610.0" cid="105" lat="41.8514676375456" lon="12.4519491204949"/>
+  <node id="10048" visible="true" timestamp="1392008749320.0" cid="105" lat="41.8514878362359" lon="12.451939998416"/>
+  <node id="10049" visible="true" timestamp="1392008759601.0" cid="105" lat="41.8514826985772" lon="12.451978556199"/>
+  <node id="10050" visible="true" timestamp="1392008769609.0" cid="105" lat="41.8514851394529" lon="12.4519860421875"/>
+  <node id="10051" visible="true" timestamp="1392008779611.0" cid="105" lat="41.851489285065" lon="12.4519519037318"/>
+  <node id="10052" visible="true" timestamp="1392008789616.0" cid="105" lat="41.8514770461795" lon="12.4519520604507"/>
+  <node id="10053" visible="true" timestamp="1392008799662.0" cid="105" lat="41.8514699430021" lon="12.4519729473232"/>
+  <node id="10054" visible="true" timestamp="1392008809933.0" cid="105" lat="41.8514730929169" lon="12.4519900675377"/>
+  <node id="10055" visible="true" timestamp="1392008821640.0" cid="105" lat="41.8516387897413" lon="12.4517975689689"/>
+  <node id="10056" visible="true" timestamp="1392008829372.0" cid="105" lat="41.8520869839113" lon="12.451431281442"/>
+  <node id="10057" visible="true" timestamp="1392008851616.0" cid="105" lat="41.8517970818281" lon="12.4534010393944"/>
+  <node id="10058" visible="true" timestamp="1392266192853.0" cid="105" lat="41.8517993161319" lon="12.4483545360616"/>
+  <node id="10059" visible="true" timestamp="1392266201595.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10060" visible="true" timestamp="1392266210710.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10061" visible="true" timestamp="1392266220318.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10062" visible="true" timestamp="1392266232683.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10063" visible="true" timestamp="1392266241010.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10064" visible="true" timestamp="1392266252648.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10065" visible="true" timestamp="1392266261019.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10066" visible="true" timestamp="1392266270610.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10067" visible="true" timestamp="1392266280335.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10068" visible="true" timestamp="1392266290694.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10069" visible="true" timestamp="1392266300708.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10070" visible="true" timestamp="1392266310385.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10071" visible="true" timestamp="1392266321146.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10072" visible="true" timestamp="1392266332588.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10073" visible="true" timestamp="1392266342059.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10074" visible="true" timestamp="1392266350631.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10075" visible="true" timestamp="1392266362629.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10076" visible="true" timestamp="1392266370714.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10077" visible="true" timestamp="1392266380705.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10078" visible="true" timestamp="1392266390658.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10079" visible="true" timestamp="1392266400319.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10080" visible="true" timestamp="1392266410692.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10081" visible="true" timestamp="1392266420738.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10082" visible="true" timestamp="1392266430323.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10083" visible="true" timestamp="1392266441600.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10084" visible="true" timestamp="1392266452713.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10085" visible="true" timestamp="1392266460984.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10086" visible="true" timestamp="1392266472656.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10087" visible="true" timestamp="1392266481401.0" cid="105" lat="41.851806536659" lon="12.4484303990415"/>
+  <node id="10088" visible="true" timestamp="1392266490822.0" cid="105" lat="41.8518034803053" lon="12.4484290021471"/>
+  <node id="10089" visible="true" timestamp="1392266500803.0" cid="105" lat="41.8518451660086" lon="12.4484472681381"/>
+  <node id="10090" visible="true" timestamp="1392266510779.0" cid="105" lat="41.8518603803571" lon="12.4484626785819"/>
+  <node id="10091" visible="true" timestamp="1392266520745.0" cid="105" lat="41.8518166345669" lon="12.4485310084417"/>
+  <node id="10092" visible="true" timestamp="1392266530744.0" cid="105" lat="41.8517855430664" lon="12.4485512897684"/>
+  <node id="10093" visible="true" timestamp="1392266541553.0" cid="105" lat="41.8518379714143" lon="12.4485119156784"/>
+  <node id="10094" visible="true" timestamp="1392266552980.0" cid="105" lat="41.8518551648812" lon="12.4484190787993"/>
+  <node id="10095" visible="true" timestamp="1392266562180.0" cid="105" lat="41.8518250470219" lon="12.4484306147053"/>
+  <node id="10096" visible="true" timestamp="1392266571278.0" cid="105" lat="41.8518113304658" lon="12.4484715356732"/>
+  <node id="10097" visible="true" timestamp="1392266582583.0" cid="105" lat="41.8518237755411" lon="12.4484889751099"/>
+  <node id="10098" visible="true" timestamp="1392266595757.0" cid="105" lat="41.8518249922089" lon="12.4484496477354"/>
+  <node id="10099" visible="true" timestamp="1392266600325.0" cid="105" lat="41.8518053715181" lon="12.4484480878507"/>
+  <node id="10100" visible="true" timestamp="1392266610732.0" cid="105" lat="41.8517935239167" lon="12.4485170112269"/>
+  <node id="10101" visible="true" timestamp="1392266621064.0" cid="105" lat="41.8517966099683" lon="12.4485104662563"/>
+  <node id="10102" visible="true" timestamp="1392266632277.0" cid="105" lat="41.8518160258006" lon="12.4487684617226"/>
+  <node id="10103" visible="true" timestamp="1392266640620.0" cid="105" lat="41.8515917446839" lon="12.4493857341931"/>
+  <node id="10104" visible="true" timestamp="1392266650633.0" cid="105" lat="41.8514234996712" lon="12.4498298024399"/>
+  <node id="10105" visible="true" timestamp="1392266660633.0" cid="105" lat="41.8512167767925" lon="12.4503066324822"/>
+  <node id="10106" visible="true" timestamp="1392266672551.0" cid="105" lat="41.8509612833741" lon="12.4509957852096"/>
+  <node id="10107" visible="true" timestamp="1392266680315.0" cid="105" lat="41.8506198338903" lon="12.4518583634725"/>
+  <node id="10108" visible="true" timestamp="1392266692554.0" cid="105" lat="41.8503795041864" lon="12.4525982655072"/>
+  <node id="10109" visible="true" timestamp="1392266705693.0" cid="105" lat="41.8510356076063" lon="12.4522326849538"/>
+  <node id="10110" visible="true" timestamp="1392266710309.0" cid="105" lat="41.8515452794609" lon="12.4518001278744"/>
+  <node id="10111" visible="true" timestamp="1392266720633.0" cid="105" lat="41.8517858561726" lon="12.4515731906258"/>
+  <node id="10112" visible="true" timestamp="1392266730634.0" cid="105" lat="41.8515607079376" lon="12.4518294535585"/>
+  <node id="10113" visible="true" timestamp="1392266740622.0" cid="105" lat="41.8514675265168" lon="12.4519404884743"/>
+  <node id="10114" visible="true" timestamp="1392266750382.0" cid="105" lat="41.8514675265168" lon="12.4519404884743"/>
+  <node id="10115" visible="true" timestamp="1392266760568.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10116" visible="true" timestamp="1392266770629.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10117" visible="true" timestamp="1392266782645.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10118" visible="true" timestamp="1392266792025.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10119" visible="true" timestamp="1392266800315.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10120" visible="true" timestamp="1392266812581.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10121" visible="true" timestamp="1392266828334.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10122" visible="true" timestamp="1392266830320.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10123" visible="true" timestamp="1392266840293.0" cid="105" lat="41.8515053870409" lon="12.4518401310221"/>
+  <node id="10124" visible="true" timestamp="1392266850626.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10125" visible="true" timestamp="1392266862645.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10126" visible="true" timestamp="1392266872333.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10127" visible="true" timestamp="1392266883011.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10128" visible="true" timestamp="1392266891398.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10129" visible="true" timestamp="1392266900923.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10130" visible="true" timestamp="1392266912611.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10131" visible="true" timestamp="1392266920832.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10132" visible="true" timestamp="1392266931171.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10133" visible="true" timestamp="1392266940973.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10134" visible="true" timestamp="1392266950826.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10135" visible="true" timestamp="1392266961443.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10136" visible="true" timestamp="1392266970732.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10137" visible="true" timestamp="1392266980901.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10138" visible="true" timestamp="1392266991058.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10139" visible="true" timestamp="1392267000318.0" cid="105" lat="41.851406436359" lon="12.4517987902093"/>
+  <node id="10140" visible="true" timestamp="1392267012895.0" cid="105" lat="41.8513795312673" lon="12.4517776395732"/>
+  <node id="10141" visible="true" timestamp="1392267021350.0" cid="105" lat="41.8513625773619" lon="12.4517840856929"/>
+  <node id="10142" visible="true" timestamp="1392267032733.0" cid="105" lat="41.851358063377" lon="12.4517430027624"/>
+  <node id="10143" visible="true" timestamp="1392267040317.0" cid="105" lat="41.8513355416227" lon="12.4516758206451"/>
+  <node id="10144" visible="true" timestamp="1392267051755.0" cid="105" lat="41.8513197867864" lon="12.451661325847"/>
+  <node id="10145" visible="true" timestamp="1392267060312.0" cid="105" lat="41.8513689809218" lon="12.4517808298382"/>
+  <node id="10146" visible="true" timestamp="1392267070958.0" cid="105" lat="41.8513973764024" lon="12.4518495923902"/>
+  <node id="10147" visible="true" timestamp="1392267080617.0" cid="105" lat="41.8513963444472" lon="12.4518598566411"/>
+  <node id="10148" visible="true" timestamp="1392267091560.0" cid="105" lat="41.8513953145167" lon="12.4518597196539"/>
+  <node id="10149" visible="true" timestamp="1392267100302.0" cid="105" lat="41.8513953145167" lon="12.4518597196539"/>
+  <node id="10150" visible="true" timestamp="1392267110906.0" cid="105" lat="41.8513953145167" lon="12.4518597196539"/>
+  <node id="10151" visible="true" timestamp="1392267120608.0" cid="105" lat="41.8513953145167" lon="12.4518597196539"/>
+  <node id="10152" visible="true" timestamp="1392267132563.0" cid="105" lat="41.8513953145167" lon="12.4518597196539"/>
+  <node id="10153" visible="true" timestamp="1392267142383.0" cid="105" lat="41.8513858439103" lon="12.4518385130318"/>
+  <node id="10154" visible="true" timestamp="1392267150647.0" cid="105" lat="41.8513813044474" lon="12.451807939151"/>
+  <node id="10155" visible="true" timestamp="1392267160624.0" cid="105" lat="41.8513568727811" lon="12.4519291145336"/>
+  <node id="10156" visible="true" timestamp="1392267170321.0" cid="105" lat="41.8513061946394" lon="12.4520142933784"/>
+  <node id="10157" visible="true" timestamp="1392267180607.0" cid="105" lat="41.851303108044" lon="12.4520581910988"/>
+  <node id="10158" visible="true" timestamp="1392267190890.0" cid="105" lat="41.8513068647767" lon="12.4520654489369"/>
+  <node id="10159" visible="true" timestamp="1392267201045.0" cid="105" lat="41.8512997163509" lon="12.4520725165719"/>
+  <node id="10160" visible="true" timestamp="1392267210284.0" cid="105" lat="41.8512868365339" lon="12.4520723935896"/>
+  <node id="10161" visible="true" timestamp="1392267220975.0" cid="105" lat="41.8512651795247" lon="12.4519999392262"/>
+  <node id="10162" visible="true" timestamp="1392267230640.0" cid="105" lat="41.8512172613662" lon="12.4519664252502"/>
+  <node id="10163" visible="true" timestamp="1392267241658.0" cid="105" lat="41.8512263439948" lon="12.4519196150129"/>
+  <node id="10164" visible="true" timestamp="1392267252590.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10165" visible="true" timestamp="1392267260613.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10166" visible="true" timestamp="1392267270607.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10167" visible="true" timestamp="1392267280565.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10168" visible="true" timestamp="1392267290846.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10169" visible="true" timestamp="1392267300613.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10170" visible="true" timestamp="1392267313729.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10171" visible="true" timestamp="1392267322055.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10172" visible="true" timestamp="1392267330884.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10173" visible="true" timestamp="1392267342598.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10174" visible="true" timestamp="1392267351143.0" cid="105" lat="41.8512279062185" lon="12.4519209453296"/>
+  <node id="10175" visible="true" timestamp="1392267364016.0" cid="105" lat="41.851356251054" lon="12.4519670759422"/>
+  <node id="10176" visible="true" timestamp="1392267372621.0" cid="105" lat="41.8514149414315" lon="12.4519654688248"/>
+  <node id="10177" visible="true" timestamp="1392267380763.0" cid="105" lat="41.8514276894173" lon="12.4519628694929"/>
+  <node id="10178" visible="true" timestamp="1392267391785.0" cid="105" lat="41.851432973399" lon="12.4519937920339"/>
+  <node id="10179" visible="true" timestamp="1392267400982.0" cid="105" lat="41.8514252908925" lon="12.4520030213281"/>
+  <node id="10180" visible="true" timestamp="1392267410648.0" cid="105" lat="41.8515081680159" lon="12.4518712957592"/>
+  <node id="10181" visible="true" timestamp="1392267420745.0" cid="105" lat="41.8514515854491" lon="12.4517984573075"/>
+  <node id="10182" visible="true" timestamp="1392267431236.0" cid="105" lat="41.8514415891945" lon="12.4518562428938"/>
+  <node id="10183" visible="true" timestamp="1392267441318.0" cid="105" lat="41.8514124740318" lon="12.4519927890002"/>
+  <node id="10184" visible="true" timestamp="1392267450606.0" cid="105" lat="41.851437980678" lon="12.4520300608434"/>
+  <node id="10185" visible="true" timestamp="1392267460600.0" cid="105" lat="41.8514513438053" lon="12.4520369967541"/>
+  <node id="10186" visible="true" timestamp="1392267473018.0" cid="105" lat="41.8514460692747" lon="12.4519987724628"/>
+  <node id="10187" visible="true" timestamp="1392267482031.0" cid="105" lat="41.8515101342401" lon="12.4518711589995"/>
+  <node id="10188" visible="true" timestamp="1392267490606.0" cid="105" lat="41.8514597434459" lon="12.4519059921168"/>
+  <node id="10189" visible="true" timestamp="1392267500621.0" cid="105" lat="41.8514705519487" lon="12.4519281013278"/>
+  <node id="10190" visible="true" timestamp="1392267510608.0" cid="105" lat="41.8514362280283" lon="12.4518929128538"/>
+  <node id="10191" visible="true" timestamp="1392267520373.0" cid="105" lat="41.8514200843397" lon="12.4519106080387"/>
+  <node id="10192" visible="true" timestamp="1392267530609.0" cid="105" lat="41.8514218170053" lon="12.4519520321267"/>
+  <node id="10193" visible="true" timestamp="1392267540322.0" cid="105" lat="41.8513872461691" lon="12.4519756416264"/>
+  <node id="10194" visible="true" timestamp="1392267552904.0" cid="105" lat="41.8513303889469" lon="12.4519896982009"/>
+  <node id="10195" visible="true" timestamp="1392267561402.0" cid="105" lat="41.8512744450059" lon="12.4519463052782"/>
+  <node id="10196" visible="true" timestamp="1392267572882.0" cid="105" lat="41.8512525474939" lon="12.4519084548362"/>
+  <node id="10197" visible="true" timestamp="1392267580610.0" cid="105" lat="41.8513733607329" lon="12.4517315287052"/>
+  <node id="10198" visible="true" timestamp="1392267595263.0" cid="105" lat="41.8519900733996" lon="12.4513963199917"/>
+  <node id="10199" visible="true" timestamp="1392267610281.0" cid="105" lat="41.8518530200837" lon="12.4532505915164"/>
+  <node id="10200" visible="true" timestamp="1392875114486.0" cid="105" lat="41.8515137449692" lon="12.4492864787664"/>
+  <node id="10201" visible="true" timestamp="1392875120541.0" cid="105" lat="41.8512943823719" lon="12.4500221045472"/>
+  <node id="10202" visible="true" timestamp="1392875127533.0" cid="105" lat="41.8510743789722" lon="12.4506667955335"/>
+  <node id="10203" visible="true" timestamp="1392875134201.0" cid="105" lat="41.8506443642882" lon="12.4518428228967"/>
+  <node id="10204" visible="true" timestamp="1392875144094.0" cid="105" lat="41.8503506317266" lon="12.452596634521"/>
+  <node id="10205" visible="true" timestamp="1392875148239.0" cid="105" lat="41.8506326326619" lon="12.4526188205912"/>
+  <node id="10206" visible="true" timestamp="1392875158184.0" cid="105" lat="41.8512008140164" lon="12.4520828001914"/>
+  <node id="10207" visible="true" timestamp="1392875162246.0" cid="105" lat="41.8513493974354" lon="12.4519455062131"/>
+  <node id="10208" visible="true" timestamp="1392875169808.0" cid="105" lat="41.8513493974354" lon="12.4519455062131"/>
+  <node id="10209" visible="true" timestamp="1392875176204.0" cid="105" lat="41.8512215113855" lon="12.4520134833087"/>
+  <node id="10210" visible="true" timestamp="1392875183240.0" cid="105" lat="41.8512215113855" lon="12.4520134833087"/>
+  <node id="10211" visible="true" timestamp="1392875190539.0" cid="105" lat="41.8512057767991" lon="12.4520599818041"/>
+  <node id="10212" visible="true" timestamp="1392875197230.0" cid="105" lat="41.8512199078938" lon="12.452060567957"/>
+  <node id="10213" visible="true" timestamp="1392875204540.0" cid="105" lat="41.8512018932791" lon="12.4520378230159"/>
+  <node id="10214" visible="true" timestamp="1392875211207.0" cid="105" lat="41.851188311327" lon="12.4520251985714"/>
+  <node id="10215" visible="true" timestamp="1392875219414.0" cid="105" lat="41.8511805564986" lon="12.4520139176958"/>
+  <node id="10216" visible="true" timestamp="1392875225524.0" cid="105" lat="41.8511744238599" lon="12.4519871785069"/>
+  <node id="10217" visible="true" timestamp="1392875232245.0" cid="105" lat="41.8511660602021" lon="12.4519657177917"/>
+  <node id="10218" visible="true" timestamp="1392875242764.0" cid="105" lat="41.8511628958339" lon="12.4519604846565"/>
+  <node id="10219" visible="true" timestamp="1392875246254.0" cid="105" lat="41.8511621799743" lon="12.4519745188795"/>
+  <node id="10220" visible="true" timestamp="1392875256702.0" cid="105" lat="41.851163005786" lon="12.4519846784251"/>
+  <node id="10221" visible="true" timestamp="1392875260228.0" cid="105" lat="41.8511650270645" lon="12.4519824580095"/>
+  <node id="10222" visible="true" timestamp="1392875267524.0" cid="105" lat="41.8511816616511" lon="12.4519812867959"/>
+  <node id="10223" visible="true" timestamp="1392875277183.0" cid="105" lat="41.8511974516869" lon="12.4519877779533"/>
+  <node id="10224" visible="true" timestamp="1392875281228.0" cid="105" lat="41.8512032456496" lon="12.4519946395108"/>
+  <node id="10225" visible="true" timestamp="1392875288540.0" cid="105" lat="41.8512079939305" lon="12.4519847293849"/>
+  <node id="10226" visible="true" timestamp="1392875295524.0" cid="105" lat="41.8512141206656" lon="12.4519834859955"/>
+  <node id="10227" visible="true" timestamp="1392875302529.0" cid="105" lat="41.851220200672" lon="12.4519722117831"/>
+  <node id="10228" visible="true" timestamp="1392875311694.0" cid="105" lat="41.8512305110145" lon="12.4519242327535"/>
+  <node id="10229" visible="true" timestamp="1392875316229.0" cid="105" lat="41.8512445213924" lon="12.4519044043113"/>
+  <node id="10230" visible="true" timestamp="1392875323543.0" cid="105" lat="41.8512583997344" lon="12.4519373817011"/>
+  <node id="10231" visible="true" timestamp="1392875333436.0" cid="105" lat="41.8512620440093" lon="12.4519829199119"/>
+  <node id="10232" visible="true" timestamp="1392875337239.0" cid="105" lat="41.8512645745684" lon="12.4520195220099"/>
+  <node id="10233" visible="true" timestamp="1392875344281.0" cid="105" lat="41.8512645745627" lon="12.4520195220225"/>
+  <node id="10234" visible="true" timestamp="1392875352535.0" cid="105" lat="41.8512645745627" lon="12.4520195220225"/>
+  <node id="10235" visible="true" timestamp="1392875358525.0" cid="105" lat="41.8512645745627" lon="12.4520195220225"/>
+  <node id="10236" visible="true" timestamp="1392875365240.0" cid="105" lat="41.8512645745627" lon="12.4520195220225"/>
+  <node id="10237" visible="true" timestamp="1392875373088.0" cid="105" lat="41.8512645745627" lon="12.4520195220225"/>
+  <node id="10238" visible="true" timestamp="1392875379528.0" cid="105" lat="41.8512549847649" lon="12.4520498495253"/>
+  <node id="10239" visible="true" timestamp="1392875389867.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10240" visible="true" timestamp="1392875393239.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10241" visible="true" timestamp="1392875400682.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10242" visible="true" timestamp="1392875407831.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10243" visible="true" timestamp="1392875414540.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10244" visible="true" timestamp="1392875421527.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10245" visible="true" timestamp="1392875428964.0" cid="105" lat="41.8512517183923" lon="12.4521065060959"/>
+  <node id="10246" visible="true" timestamp="1392875435246.0" cid="105" lat="41.851243641512" lon="12.4520983088962"/>
+  <node id="10247" visible="true" timestamp="1392875442531.0" cid="105" lat="41.8512436408787" lon="12.4520983078723"/>
+  <node id="10248" visible="true" timestamp="1392875453580.0" cid="105" lat="41.8512436408787" lon="12.4520983078723"/>
+  <node id="10249" visible="true" timestamp="1392875456233.0" cid="105" lat="41.8512436408787" lon="12.4520983078723"/>
+  <node id="10250" visible="true" timestamp="1392875468651.0" cid="105" lat="41.8512436408787" lon="12.4520983078723"/>
+  <node id="10251" visible="true" timestamp="1392875470240.0" cid="105" lat="41.8512436408787" lon="12.4520983078723"/>
+  <node id="10252" visible="true" timestamp="1392875477544.0" cid="105" lat="41.8512470491889" lon="12.4520887481372"/>
+  <node id="10253" visible="true" timestamp="1392875484579.0" cid="105" lat="41.8512561358754" lon="12.4520740179376"/>
+  <node id="10254" visible="true" timestamp="1392875491524.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10255" visible="true" timestamp="1392875498537.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10256" visible="true" timestamp="1392875509047.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10257" visible="true" timestamp="1392875512234.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10258" visible="true" timestamp="1392875519543.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10259" visible="true" timestamp="1392875526207.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10260" visible="true" timestamp="1392875538729.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10261" visible="true" timestamp="1392875540803.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10262" visible="true" timestamp="1392875547201.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10263" visible="true" timestamp="1392875554853.0" cid="105" lat="41.8512767813694" lon="12.4520588012888"/>
+  <node id="10264" visible="true" timestamp="1392875561537.0" cid="105" lat="41.8512652393302" lon="12.4520603342431"/>
+  <node id="10265" visible="true" timestamp="1392875568530.0" cid="105" lat="41.8512543683645" lon="12.452066715974"/>
+  <node id="10266" visible="true" timestamp="1392875575525.0" cid="105" lat="41.8512542647893" lon="12.4520667696538"/>
+  <node id="10267" visible="true" timestamp="1392875582526.0" cid="105" lat="41.8512542647893" lon="12.4520667696538"/>
+  <node id="10268" visible="true" timestamp="1392875589531.0" cid="105" lat="41.8512306372609" lon="12.4520712146514"/>
+  <node id="10269" visible="true" timestamp="1392875596677.0" cid="105" lat="41.85118296931" lon="12.4520872666632"/>
+  <node id="10270" visible="true" timestamp="1392875605204.0" cid="105" lat="41.8512220875338" lon="12.4521644548284"/>
+  <node id="10271" visible="true" timestamp="1392875610527.0" cid="105" lat="41.8512459010203" lon="12.4521789072135"/>
+  <node id="10272" visible="true" timestamp="1392875618244.0" cid="105" lat="41.8512605844627" lon="12.4521987557049"/>
+  <node id="10273" visible="true" timestamp="1392875624240.0" cid="105" lat="41.8512605844627" lon="12.4521987557049"/>
+  <node id="10274" visible="true" timestamp="1392875631230.0" cid="105" lat="41.8512725249651" lon="12.4522008670056"/>
+  <node id="10275" visible="true" timestamp="1392875642456.0" cid="105" lat="41.8512770469571" lon="12.4521866371552"/>
+  <node id="10276" visible="true" timestamp="1392875645229.0" cid="105" lat="41.8512764093325" lon="12.4521681093999"/>
+  <node id="10277" visible="true" timestamp="1392875652540.0" cid="105" lat="41.8512768488261" lon="12.4521813577691"/>
+  <node id="10278" visible="true" timestamp="1392875659523.0" cid="105" lat="41.8512728359736" lon="12.4521553676416"/>
+  <node id="10279" visible="true" timestamp="1392875666524.0" cid="105" lat="41.851273112061" lon="12.4521500837238"/>
+  <node id="10280" visible="true" timestamp="1392875673531.0" cid="105" lat="41.8512731264542" lon="12.4521500715548"/>
+  <node id="10281" visible="true" timestamp="1392875680525.0" cid="105" lat="41.8512897964681" lon="12.4521512621498"/>
+  <node id="10282" visible="true" timestamp="1392875687200.0" cid="105" lat="41.8513162126217" lon="12.4521894483056"/>
+  <node id="10283" visible="true" timestamp="1392875694808.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10284" visible="true" timestamp="1392875701229.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10285" visible="true" timestamp="1392875708283.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10286" visible="true" timestamp="1392875717517.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10287" visible="true" timestamp="1392875722240.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10288" visible="true" timestamp="1392875729540.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10289" visible="true" timestamp="1392875736539.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10290" visible="true" timestamp="1392875744128.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10291" visible="true" timestamp="1392875750529.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10292" visible="true" timestamp="1392875757526.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10293" visible="true" timestamp="1392875764522.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10294" visible="true" timestamp="1392875771230.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10295" visible="true" timestamp="1392875781484.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10296" visible="true" timestamp="1392875785230.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10297" visible="true" timestamp="1392875795551.0" cid="105" lat="41.8513162708692" lon="12.4521895152953"/>
+  <node id="10298" visible="true" timestamp="1392875799232.0" cid="105" lat="41.8512916510599" lon="12.4521754572678"/>
+  <node id="10299" visible="true" timestamp="1392875806230.0" cid="105" lat="41.8512916510599" lon="12.4521754572678"/>
+  <node id="10300" visible="true" timestamp="1392875816038.0" cid="105" lat="41.8512916510599" lon="12.4521754572678"/>
+  <node id="10301" visible="true" timestamp="1392875820229.0" cid="105" lat="41.8512916510599" lon="12.4521754572678"/>
+  <node id="10302" visible="true" timestamp="1392875827545.0" cid="105" lat="41.8512916510599" lon="12.4521754572678"/>
+  <node id="10303" visible="true" timestamp="1392875834536.0" cid="105" lat="41.8512916510599" lon="12.4521754572678"/>
+  <node id="10304" visible="true" timestamp="1392875841523.0" cid="105" lat="41.8511543265252" lon="12.4520763788534"/>
+  <node id="10305" visible="true" timestamp="1392875851128.0" cid="105" lat="41.8510571451496" lon="12.4520011675197"/>
+  <node id="10306" visible="true" timestamp="1392875855243.0" cid="105" lat="41.8510559773806" lon="12.4519998505181"/>
+  <node id="10307" visible="true" timestamp="1392875862542.0" cid="105" lat="41.8510717272755" lon="12.4520181908105"/>
+  <node id="10308" visible="true" timestamp="1392875872372.0" cid="105" lat="41.8510910192998" lon="12.4520473047628"/>
+  <node id="10309" visible="true" timestamp="1392875876499.0" cid="105" lat="41.8511574597486" lon="12.452092855281"/>
+  <node id="10310" visible="true" timestamp="1392875883527.0" cid="105" lat="41.8511978570623" lon="12.4521099785483"/>
+  <node id="10311" visible="true" timestamp="1392875892835.0" cid="105" lat="41.8512087374686" lon="12.4521137468553"/>
+  <node id="10312" visible="true" timestamp="1392875897730.0" cid="105" lat="41.8512027334652" lon="12.4521077817762"/>
+  <node id="10313" visible="true" timestamp="1392875904540.0" cid="105" lat="41.8511988616812" lon="12.4521153678152"/>
+  <node id="10314" visible="true" timestamp="1392875914590.0" cid="105" lat="41.8512122690346" lon="12.4521056296227"/>
+  <node id="10315" visible="true" timestamp="1392875918230.0" cid="105" lat="41.8512377677205" lon="12.4521020630199"/>
+  <node id="10316" visible="true" timestamp="1392875928676.0" cid="105" lat="41.8512488728522" lon="12.4521089521107"/>
+  <node id="10317" visible="true" timestamp="1392875932240.0" cid="105" lat="41.8512450173829" lon="12.4521462377607"/>
+  <node id="10318" visible="true" timestamp="1392875939542.0" cid="105" lat="41.85122641414" lon="12.4522172880873"/>
+  <node id="10319" visible="true" timestamp="1392875949146.0" cid="105" lat="41.8512447662675" lon="12.4522421728845"/>
+  <node id="10320" visible="true" timestamp="1392875953244.0" cid="105" lat="41.8512607372252" lon="12.4523050899356"/>
+  <node id="10321" visible="true" timestamp="1392875960539.0" cid="105" lat="41.8512678475728" lon="12.4523233004522"/>
+  <node id="10322" visible="true" timestamp="1392875970913.0" cid="105" lat="41.8512749693237" lon="12.4523215659019"/>
+  <node id="10323" visible="true" timestamp="1392875974241.0" cid="105" lat="41.8513047515812" lon="12.4522309279979"/>
+  <node id="10324" visible="true" timestamp="1392875981542.0" cid="105" lat="41.8513241607581" lon="12.4522018927134"/>
+  <node id="10325" visible="true" timestamp="1392875991374.0" cid="105" lat="41.8513241607581" lon="12.4522018927134"/>
+  <node id="10326" visible="true" timestamp="1392875995229.0" cid="105" lat="41.8513241607581" lon="12.4522018927134"/>
+  <node id="10327" visible="true" timestamp="1392876008900.0" cid="105" lat="41.8513598198243" lon="12.4521541209173"/>
+  <node id="10328" visible="true" timestamp="1392876009214.0" cid="105" lat="41.8516375091559" lon="12.4519064847346"/>
+  <node id="10329" visible="true" timestamp="1392876016228.0" cid="105" lat="41.8519760819773" lon="12.4515274751783"/>
+  <way id="100000002" visible="true" cid="117">
+    <nd ref="10330"/>
+    <nd ref="10331"/>
+    <nd ref="10332"/>
+    <nd ref="10333"/>
+    <nd ref="10334"/>
+    <nd ref="10335"/>
+    <nd ref="10336"/>
+    <nd ref="10337"/>
+    <nd ref="10338"/>
+  </way>
+  <node id="10330" visible="true" timestamp="1392384404346.0" cid="117" lat="41.8496783145346" lon="12.4486437207417"/>
+  <node id="10331" visible="true" timestamp="1392384404347.0" cid="117" lat="41.8496783145346" lon="12.4486437207417"/>
+  <node id="10332" visible="true" timestamp="1392384405211.0" cid="117" lat="41.8496783145346" lon="12.4486437207417"/>
+  <node id="10333" visible="true" timestamp="1392384412195.0" cid="117" lat="41.8490989449799" lon="12.4491105856101"/>
+  <node id="10334" visible="true" timestamp="1392384419194.0" cid="117" lat="41.8487471837225" lon="12.4492803779362"/>
+  <node id="10335" visible="true" timestamp="1392384426207.0" cid="117" lat="41.8487301290725" lon="12.4494536661765"/>
+  <node id="10336" visible="true" timestamp="1392384433194.0" cid="117" lat="41.8495463951953" lon="12.4492557867753"/>
+  <node id="10337" visible="true" timestamp="1392384447109.0" cid="117" lat="41.8503658923776" lon="12.4489211022622"/>
+  <node id="10338" visible="true" timestamp="1392384447285.0" cid="117" lat="41.8512444992194" lon="12.4485950734832"/>
+  <way id="100000003" visible="true" cid="123">
+    <nd ref="10339"/>
+    <nd ref="10340"/>
+  </way>
+  <node id="10339" visible="true" timestamp="1392387652020.0" cid="123" lat="41.8521146961807" lon="12.4524856689618"/>
+  <node id="10340" visible="true" timestamp="1392387658294.0" cid="123" lat="41.8518012589787" lon="12.453550302043"/>
+  <way id="100000004" visible="true" cid="124">
+    <nd ref="10341"/>
+  </way>
+  <node id="10341" visible="true" timestamp="1391763652001.0" cid="124" lat="41.8517381675105" lon="12.4533770830982"/>
+  <way id="100000005" visible="true" cid="126">
+    <nd ref="10342"/>
+    <nd ref="10343"/>
+  </way>
+  <node id="10342" visible="true" timestamp="1391780969297.0" cid="126" lat="41.8519745816735" lon="12.4527993900791"/>
+  <node id="10343" visible="true" timestamp="1391780979300.0" cid="126" lat="41.8516865110479" lon="12.4538227653294"/>
+  <way id="100000006" visible="true" cid="132">
+    <nd ref="10344"/>
+    <nd ref="10345"/>
+    <nd ref="10346"/>
+    <nd ref="10347"/>
+    <nd ref="10348"/>
+    <nd ref="10349"/>
+    <nd ref="10350"/>
+    <nd ref="10351"/>
+    <nd ref="10352"/>
+    <nd ref="10353"/>
+    <nd ref="10354"/>
+    <nd ref="10355"/>
+    <nd ref="10356"/>
+    <nd ref="10357"/>
+    <nd ref="10358"/>
+    <nd ref="10359"/>
+    <nd ref="10360"/>
+    <nd ref="10361"/>
+    <nd ref="10362"/>
+    <nd ref="10363"/>
+    <nd ref="10364"/>
+    <nd ref="10365"/>
+    <nd ref="10366"/>
+    <nd ref="10367"/>
+    <nd ref="10368"/>
+    <nd ref="10369"/>
+    <nd ref="10370"/>
+    <nd ref="10371"/>
+  </way>
+  <node id="10344" visible="true" timestamp="1393024543183.0" cid="132" lat="41.852003461236" lon="12.4525763369262"/>
+  <node id="10345" visible="true" timestamp="1393024550195.0" cid="132" lat="41.8517127152899" lon="12.4535467038887"/>
+  <node id="10346" visible="true" timestamp="1393024564474.0" cid="132" lat="41.8511974771794" lon="12.4539647051159"/>
+  <node id="10347" visible="true" timestamp="1393024571150.0" cid="132" lat="41.8509624506897" lon="12.4537061946813"/>
+  <node id="10348" visible="true" timestamp="1393024581852.0" cid="132" lat="41.8511789117309" lon="12.4529697481008"/>
+  <node id="10349" visible="true" timestamp="1393024585176.0" cid="132" lat="41.8514923951201" lon="12.4523818384149"/>
+  <node id="10350" visible="true" timestamp="1393024592171.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10351" visible="true" timestamp="1393024599163.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10352" visible="true" timestamp="1393024606138.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10353" visible="true" timestamp="1393024613174.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10354" visible="true" timestamp="1393024620188.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10355" visible="true" timestamp="1393024627472.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10356" visible="true" timestamp="1393024638145.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10357" visible="true" timestamp="1393024641135.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10358" visible="true" timestamp="1393024648137.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10359" visible="true" timestamp="1393024658288.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10360" visible="true" timestamp="1393024662178.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10361" visible="true" timestamp="1393024669145.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10362" visible="true" timestamp="1393024680073.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10363" visible="true" timestamp="1393024683173.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10364" visible="true" timestamp="1393024691744.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10365" visible="true" timestamp="1393024697174.0" cid="132" lat="41.851634630366" lon="12.4521264780533"/>
+  <node id="10366" visible="true" timestamp="1393024704167.0" cid="132" lat="41.8513965207927" lon="12.4528068379062"/>
+  <node id="10367" visible="true" timestamp="1393024711175.0" cid="132" lat="41.851122753274" lon="12.4534671751472"/>
+  <node id="10368" visible="true" timestamp="1393024718178.0" cid="132" lat="41.8509801071968" lon="12.4537859676256"/>
+  <node id="10369" visible="true" timestamp="1393024725478.0" cid="132" lat="41.8509970933881" lon="12.4538883070762"/>
+  <node id="10370" visible="true" timestamp="1393024753190.0" cid="132" lat="41.8517642848221" lon="12.4537800905376"/>
+  <node id="10371" visible="true" timestamp="1393024761566.0" cid="132" lat="41.8520109248212" lon="12.4528543246964"/>
+  <way id="100000007" visible="true" cid="134">
+    <nd ref="10372"/>
+    <nd ref="10373"/>
+    <nd ref="10374"/>
+  </way>
+  <node id="10372" visible="true" timestamp="1392829429511.0" cid="134" lat="41.8514027177942" lon="12.4518384736561"/>
+  <node id="10373" visible="true" timestamp="1392829429513.0" cid="134" lat="41.8514027177942" lon="12.4518384736561"/>
+  <node id="10374" visible="true" timestamp="1392829437634.0" cid="134" lat="41.8519256665791" lon="12.4514955996458"/>
+  <way id="100000008" visible="true" cid="145">
+    <nd ref="10375"/>
+  </way>
+  <node id="10375" visible="true" timestamp="1392928293178.0" cid="145" lat="41.85184984122" lon="12.4530104986073"/>
+  <way id="100000009" visible="true" cid="159">
+    <nd ref="10376"/>
+    <nd ref="10377"/>
+    <nd ref="10378"/>
+    <nd ref="10379"/>
+    <nd ref="10380"/>
+    <nd ref="10381"/>
+    <nd ref="10382"/>
+    <nd ref="10383"/>
+    <nd ref="10384"/>
+    <nd ref="10385"/>
+    <nd ref="10386"/>
+    <nd ref="10387"/>
+    <nd ref="10388"/>
+    <nd ref="10389"/>
+    <nd ref="10390"/>
+    <nd ref="10391"/>
+    <nd ref="10392"/>
+    <nd ref="10393"/>
+    <nd ref="10394"/>
+    <nd ref="10395"/>
+    <nd ref="10396"/>
+    <nd ref="10397"/>
+    <nd ref="10398"/>
+    <nd ref="10399"/>
+    <nd ref="10400"/>
+    <nd ref="10401"/>
+    <nd ref="10402"/>
+    <nd ref="10403"/>
+    <nd ref="10404"/>
+  </way>
+  <node id="10376" visible="true" timestamp="1392553955387.0" cid="159" lat="41.8519036" lon="12.44892367"/>
+  <node id="10377" visible="true" timestamp="1392553960656.0" cid="159" lat="41.85149695" lon="12.44940253"/>
+  <node id="10378" visible="true" timestamp="1392553967581.0" cid="159" lat="41.8511805" lon="12.45059761"/>
+  <node id="10379" visible="true" timestamp="1392553974895.0" cid="159" lat="41.85096227" lon="12.45118452"/>
+  <node id="10380" visible="true" timestamp="1392553983180.0" cid="159" lat="41.85077688" lon="12.45134522"/>
+  <node id="10381" visible="true" timestamp="1392554006405.0" cid="159" lat="41.84904963" lon="12.45068733"/>
+  <node id="10382" visible="true" timestamp="1392554006406.0" cid="159" lat="41.84904963" lon="12.45068733"/>
+  <node id="10383" visible="true" timestamp="1392554007307.0" cid="159" lat="41.84904963" lon="12.45068733"/>
+  <node id="10384" visible="true" timestamp="1392554007308.0" cid="159" lat="41.84904963" lon="12.45068733"/>
+  <node id="10385" visible="true" timestamp="1392554009180.0" cid="159" lat="41.84904963" lon="12.45068733"/>
+  <node id="10386" visible="true" timestamp="1392554015540.0" cid="159" lat="41.84894006" lon="12.45089056"/>
+  <node id="10387" visible="true" timestamp="1392554022610.0" cid="159" lat="41.84891188" lon="12.45092043"/>
+  <node id="10388" visible="true" timestamp="1392554029880.0" cid="159" lat="41.84891602" lon="12.45093422"/>
+  <node id="10389" visible="true" timestamp="1392554040058.0" cid="159" lat="41.8489131" lon="12.45094012"/>
+  <node id="10390" visible="true" timestamp="1392554043902.0" cid="159" lat="41.84891457" lon="12.45093721"/>
+  <node id="10391" visible="true" timestamp="1392554051361.0" cid="159" lat="41.84891485" lon="12.45093652"/>
+  <node id="10392" visible="true" timestamp="1392554057800.0" cid="159" lat="41.84891205" lon="12.45096609"/>
+  <node id="10393" visible="true" timestamp="1392554074931.0" cid="159" lat="41.84882445" lon="12.45161626"/>
+  <node id="10394" visible="true" timestamp="1392554074940.0" cid="159" lat="41.84885527" lon="12.45195499"/>
+  <node id="10395" visible="true" timestamp="1392554075466.0" cid="159" lat="41.8489534" lon="12.45208595"/>
+  <node id="10396" visible="true" timestamp="1392554075467.0" cid="159" lat="41.8489534" lon="12.45208595"/>
+  <node id="10397" visible="true" timestamp="1392554076380.0" cid="159" lat="41.8489534" lon="12.45208595"/>
+  <node id="10398" visible="true" timestamp="1392554084584.0" cid="159" lat="41.84938056" lon="12.45231972"/>
+  <node id="10399" visible="true" timestamp="1392554094128.0" cid="159" lat="41.84978988" lon="12.4525503"/>
+  <node id="10400" visible="true" timestamp="1392554097642.0" cid="159" lat="41.85008609" lon="12.45279158"/>
+  <node id="10401" visible="true" timestamp="1392554106076.0" cid="159" lat="41.85028579" lon="12.45294072"/>
+  <node id="10402" visible="true" timestamp="1392554111455.0" cid="159" lat="41.85085929" lon="12.45237537"/>
+  <node id="10403" visible="true" timestamp="1392554118688.0" cid="159" lat="41.85132449" lon="12.45193543"/>
+  <node id="10404" visible="true" timestamp="1392554125658.0" cid="159" lat="41.85173364" lon="12.45148371"/>
+  <way id="100000010" visible="true" cid="17">
+    <nd ref="10405"/>
+    <nd ref="10406"/>
+  </way>
+  <node id="10405" visible="true" timestamp="1393106438347.0" cid="17" lat="41.8519656390446" lon="12.4527610077793"/>
+  <node id="10406" visible="true" timestamp="1393106446030.0" cid="17" lat="41.8517381898185" lon="12.4535170946714"/>
+  <way id="100000011" visible="true" cid="170">
+    <nd ref="10407"/>
+    <nd ref="10408"/>
+  </way>
+  <node id="10407" visible="true" timestamp="1392839933292.0" cid="170" lat="41.8518317643314" lon="12.4530205508256"/>
+  <node id="10408" visible="true" timestamp="1392839940322.0" cid="170" lat="41.8516540081506" lon="12.4537372606232"/>
+  <way id="100000012" visible="true" cid="179">
+    <nd ref="10409"/>
+    <nd ref="10410"/>
+    <nd ref="10411"/>
+    <nd ref="10412"/>
+    <nd ref="10413"/>
+    <nd ref="10414"/>
+    <nd ref="10415"/>
+    <nd ref="10416"/>
+    <nd ref="10417"/>
+    <nd ref="10418"/>
+    <nd ref="10419"/>
+    <nd ref="10420"/>
+    <nd ref="10421"/>
+    <nd ref="10422"/>
+    <nd ref="10423"/>
+    <nd ref="10424"/>
+    <nd ref="10425"/>
+    <nd ref="10426"/>
+    <nd ref="10427"/>
+    <nd ref="10428"/>
+    <nd ref="10429"/>
+    <nd ref="10430"/>
+    <nd ref="10431"/>
+    <nd ref="10432"/>
+    <nd ref="10433"/>
+    <nd ref="10434"/>
+    <nd ref="10435"/>
+    <nd ref="10436"/>
+    <nd ref="10437"/>
+    <nd ref="10438"/>
+    <nd ref="10439"/>
+    <nd ref="10440"/>
+    <nd ref="10441"/>
+    <nd ref="10442"/>
+    <nd ref="10443"/>
+    <nd ref="10444"/>
+    <nd ref="10445"/>
+    <nd ref="10446"/>
+    <nd ref="10447"/>
+    <nd ref="10448"/>
+    <nd ref="10449"/>
+  </way>
+  <node id="10409" visible="true" timestamp="1393349523499.0" cid="179" lat="41.8508687819047" lon="12.4512814691223"/>
+  <node id="10410" visible="true" timestamp="1393349523499.0" cid="179" lat="41.8508687819047" lon="12.4512814691223"/>
+  <node id="10411" visible="true" timestamp="1393349525275.0" cid="179" lat="41.8508687819047" lon="12.4512814691223"/>
+  <node id="10412" visible="true" timestamp="1393349532902.0" cid="179" lat="41.8507460709912" lon="12.4513508513935"/>
+  <node id="10413" visible="true" timestamp="1393349539293.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10414" visible="true" timestamp="1393349546294.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10415" visible="true" timestamp="1393349555012.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10416" visible="true" timestamp="1393349560293.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10417" visible="true" timestamp="1393349569566.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10418" visible="true" timestamp="1393349574283.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10419" visible="true" timestamp="1393349581243.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10420" visible="true" timestamp="1393349591382.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10421" visible="true" timestamp="1393349595678.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10422" visible="true" timestamp="1393349603424.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10423" visible="true" timestamp="1393349609694.0" cid="179" lat="41.8506236720539" lon="12.4512503117028"/>
+  <node id="10424" visible="true" timestamp="1393349616959.0" cid="179" lat="41.8505917338564" lon="12.4511882272422"/>
+  <node id="10425" visible="true" timestamp="1393349628332.0" cid="179" lat="41.8505917338564" lon="12.4511882272422"/>
+  <node id="10426" visible="true" timestamp="1393349630292.0" cid="179" lat="41.8505917338564" lon="12.4511882272422"/>
+  <node id="10427" visible="true" timestamp="1393349637292.0" cid="179" lat="41.8505917338564" lon="12.4511882272422"/>
+  <node id="10428" visible="true" timestamp="1393349644241.0" cid="179" lat="41.8505917338564" lon="12.4511882272422"/>
+  <node id="10429" visible="true" timestamp="1393349651241.0" cid="179" lat="41.8505917338564" lon="12.4511882272422"/>
+  <node id="10430" visible="true" timestamp="1393349658283.0" cid="179" lat="41.8502412179685" lon="12.4509655799189"/>
+  <node id="10431" visible="true" timestamp="1393349665293.0" cid="179" lat="41.8500163664144" lon="12.4507845354483"/>
+  <node id="10432" visible="true" timestamp="1393349672291.0" cid="179" lat="41.8497915979842" lon="12.4506579321799"/>
+  <node id="10433" visible="true" timestamp="1393349679300.0" cid="179" lat="41.8491565880256" lon="12.4505350006172"/>
+  <node id="10434" visible="true" timestamp="1393349700211.0" cid="179" lat="41.8488944020997" lon="12.4508621647655"/>
+  <node id="10435" visible="true" timestamp="1393349700310.0" cid="179" lat="41.8487741133228" lon="12.4513677505323"/>
+  <node id="10436" visible="true" timestamp="1393349700314.0" cid="179" lat="41.8488393519121" lon="12.4519638127253"/>
+  <node id="10437" visible="true" timestamp="1393349702132.0" cid="179" lat="41.8488393519121" lon="12.4519638127253"/>
+  <node id="10438" visible="true" timestamp="1393349702133.0" cid="179" lat="41.8488393519121" lon="12.4519638127253"/>
+  <node id="10439" visible="true" timestamp="1393349703675.0" cid="179" lat="41.8489001019687" lon="12.4520667655974"/>
+  <node id="10440" visible="true" timestamp="1393349710676.0" cid="179" lat="41.8492334648691" lon="12.4522661767996"/>
+  <node id="10441" visible="true" timestamp="1393349735926.0" cid="179" lat="41.8505202194839" lon="12.4526421702509"/>
+  <node id="10442" visible="true" timestamp="1393349735927.0" cid="179" lat="41.8505202194839" lon="12.4526421702509"/>
+  <node id="10443" visible="true" timestamp="1393349738827.0" cid="179" lat="41.8505202194839" lon="12.4526421702509"/>
+  <node id="10444" visible="true" timestamp="1393349746622.0" cid="179" lat="41.8508903706064" lon="12.45231162457"/>
+  <node id="10445" visible="true" timestamp="1393349759155.0" cid="179" lat="41.8511921762011" lon="12.4519983902952"/>
+  <node id="10446" visible="true" timestamp="1393349759666.0" cid="179" lat="41.851771094776" lon="12.4515405532231"/>
+  <node id="10447" visible="true" timestamp="1393349762370.0" cid="179" lat="41.851771094776" lon="12.4515405532231"/>
+  <node id="10448" visible="true" timestamp="1393349762371.0" cid="179" lat="41.851771094776" lon="12.4515405532231"/>
+  <node id="10449" visible="true" timestamp="1393349766099.0" cid="179" lat="41.8519419639284" lon="12.4514325365374"/>
+  <way id="100000013" visible="true" cid="182">
+    <nd ref="10450"/>
+    <nd ref="10451"/>
+  </way>
+  <node id="10450" visible="true" timestamp="1393217860819.0" cid="182" lat="41.8518313387435" lon="12.4532075715014"/>
+  <node id="10451" visible="true" timestamp="1393217860820.0" cid="182" lat="41.8518313387435" lon="12.4532075715014"/>
+  <way id="100000014" visible="true" cid="230">
+    <nd ref="10452"/>
+    <nd ref="10453"/>
+    <nd ref="10454"/>
+    <nd ref="10455"/>
+    <nd ref="10456"/>
+    <nd ref="10457"/>
+    <nd ref="10458"/>
+    <nd ref="10459"/>
+    <nd ref="10460"/>
+    <nd ref="10461"/>
+    <nd ref="10462"/>
+    <nd ref="10463"/>
+    <nd ref="10464"/>
+    <nd ref="10465"/>
+    <nd ref="10466"/>
+    <nd ref="10467"/>
+    <nd ref="10468"/>
+    <nd ref="10469"/>
+    <nd ref="10470"/>
+    <nd ref="10471"/>
+    <nd ref="10472"/>
+    <nd ref="10473"/>
+    <nd ref="10474"/>
+    <nd ref="10475"/>
+    <nd ref="10476"/>
+    <nd ref="10477"/>
+    <nd ref="10478"/>
+    <nd ref="10479"/>
+    <nd ref="10480"/>
+    <nd ref="10481"/>
+    <nd ref="10482"/>
+  </way>
+  <node id="10452" visible="true" timestamp="1393424371864.0" cid="230" lat="41.851907777211" lon="12.4488386124812"/>
+  <node id="10453" visible="true" timestamp="1393424379687.0" cid="230" lat="41.8513969708338" lon="12.4497172034585"/>
+  <node id="10454" visible="true" timestamp="1393424385970.0" cid="230" lat="41.8510135397302" lon="12.4507214239664"/>
+  <node id="10455" visible="true" timestamp="1393424394842.0" cid="230" lat="41.8508032469731" lon="12.4513485838846"/>
+  <node id="10456" visible="true" timestamp="1393424399925.0" cid="230" lat="41.8507716480463" lon="12.4514101174712"/>
+  <node id="10457" visible="true" timestamp="1393424407206.0" cid="230" lat="41.8507716480463" lon="12.4514101174712"/>
+  <node id="10458" visible="true" timestamp="1393424414303.0" cid="230" lat="41.8507650392328" lon="12.4514233537264"/>
+  <node id="10459" visible="true" timestamp="1393424421299.0" cid="230" lat="41.8505380350363" lon="12.4512711562169"/>
+  <node id="10460" visible="true" timestamp="1393424428325.0" cid="230" lat="41.8503362657095" lon="12.4511265766056"/>
+  <node id="10461" visible="true" timestamp="1393424434964.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10462" visible="true" timestamp="1393424443652.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10463" visible="true" timestamp="1393424448917.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10464" visible="true" timestamp="1393424457299.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10465" visible="true" timestamp="1393424463290.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10466" visible="true" timestamp="1393424471746.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10467" visible="true" timestamp="1393424477193.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10468" visible="true" timestamp="1393424484199.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10469" visible="true" timestamp="1393424491229.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10470" visible="true" timestamp="1393424498212.0" cid="230" lat="41.8501811638792" lon="12.4509380691009"/>
+  <node id="10471" visible="true" timestamp="1393424510250.0" cid="230" lat="41.8501724052767" lon="12.4508940714188"/>
+  <node id="10472" visible="true" timestamp="1393424512234.0" cid="230" lat="41.849989047406" lon="12.4507918937709"/>
+  <node id="10473" visible="true" timestamp="1393424520484.0" cid="230" lat="41.8496318567953" lon="12.4505400899068"/>
+  <node id="10474" visible="true" timestamp="1393424525870.0" cid="230" lat="41.8489662775239" lon="12.4506318185374"/>
+  <node id="10475" visible="true" timestamp="1393424539845.0" cid="230" lat="41.8486710417853" lon="12.4515506799566"/>
+  <node id="10476" visible="true" timestamp="1393424539885.0" cid="230" lat="41.8489895744057" lon="12.4521387502514"/>
+  <node id="10477" visible="true" timestamp="1393424546977.0" cid="230" lat="41.8492813900124" lon="12.4523088794319"/>
+  <node id="10478" visible="true" timestamp="1393424553968.0" cid="230" lat="41.8498675537489" lon="12.4526711587882"/>
+  <node id="10479" visible="true" timestamp="1393424561285.0" cid="230" lat="41.8503755122628" lon="12.4527715163184"/>
+  <node id="10480" visible="true" timestamp="1393424572839.0" cid="230" lat="41.8508575110637" lon="12.4523059836505"/>
+  <node id="10481" visible="true" timestamp="1393424575097.0" cid="230" lat="41.8511923742079" lon="12.4520217009939"/>
+  <node id="10482" visible="true" timestamp="1393424582336.0" cid="230" lat="41.8518226138838" lon="12.4514931838025"/>
+  <way id="100000015" visible="true" cid="234">
+    <nd ref="10483"/>
+    <nd ref="10484"/>
+    <nd ref="10485"/>
+  </way>
+  <node id="10483" visible="true" timestamp="1391426329800.0" cid="234" lat="41.8519328712417" lon="12.4530204838025"/>
+  <node id="10484" visible="true" timestamp="1392810397526.0" cid="234" lat="41.8518657012157" lon="12.4531181944454"/>
+  <node id="10485" visible="true" timestamp="1392810397530.0" cid="234" lat="41.8517107048479" lon="12.453652573653"/>
+  <way id="100000016" visible="true" cid="244">
+    <nd ref="10486"/>
+    <nd ref="10487"/>
+    <nd ref="10488"/>
+    <nd ref="10489"/>
+    <nd ref="10490"/>
+    <nd ref="10491"/>
+    <nd ref="10492"/>
+    <nd ref="10493"/>
+    <nd ref="10494"/>
+    <nd ref="10495"/>
+    <nd ref="10496"/>
+    <nd ref="10497"/>
+    <nd ref="10498"/>
+    <nd ref="10499"/>
+    <nd ref="10500"/>
+    <nd ref="10501"/>
+    <nd ref="10502"/>
+    <nd ref="10503"/>
+    <nd ref="10504"/>
+    <nd ref="10505"/>
+  </way>
+  <node id="10486" visible="true" timestamp="1393006198427.0" cid="244" lat="41.8519990533674" lon="12.4488510658895"/>
+  <node id="10487" visible="true" timestamp="1393006265516.0" cid="244" lat="41.8489476511871" lon="12.4507563962984"/>
+  <node id="10488" visible="true" timestamp="1393006265516.0" cid="244" lat="41.8489476511871" lon="12.4507563962984"/>
+  <node id="10489" visible="true" timestamp="1393006274133.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10490" visible="true" timestamp="1393006274133.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10491" visible="true" timestamp="1393006292129.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10492" visible="true" timestamp="1393006292130.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10493" visible="true" timestamp="1393006295805.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10494" visible="true" timestamp="1393006303059.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10495" visible="true" timestamp="1393006309941.0" cid="244" lat="41.8489079931182" lon="12.4508670480134"/>
+  <node id="10496" visible="true" timestamp="1393006316987.0" cid="244" lat="41.8488705352248" lon="12.4511469328969"/>
+  <node id="10497" visible="true" timestamp="1393006341879.0" cid="244" lat="41.8494267160909" lon="12.4523818518996"/>
+  <node id="10498" visible="true" timestamp="1393006341881.0" cid="244" lat="41.8494267160909" lon="12.4523818518996"/>
+  <node id="10499" visible="true" timestamp="1393006343534.0" cid="244" lat="41.8494267160909" lon="12.4523818518996"/>
+  <node id="10500" visible="true" timestamp="1393006343535.0" cid="244" lat="41.8494267160909" lon="12.4523818518996"/>
+  <node id="10501" visible="true" timestamp="1393006352393.0" cid="244" lat="41.8497210291537" lon="12.4525932718784"/>
+  <node id="10502" visible="true" timestamp="1393006353180.0" cid="244" lat="41.85022759323" lon="12.4529109605846"/>
+  <node id="10503" visible="true" timestamp="1393006360871.0" cid="244" lat="41.8503589213784" lon="12.4528206553907"/>
+  <node id="10504" visible="true" timestamp="1393006367226.0" cid="244" lat="41.8509257804672" lon="12.4522454056003"/>
+  <node id="10505" visible="true" timestamp="1393006374770.0" cid="244" lat="41.8517006147481" lon="12.4516189542136"/>
+  <way id="100000017" visible="true" cid="248">
+    <nd ref="10506"/>
+    <nd ref="10507"/>
+    <nd ref="10508"/>
+    <nd ref="10509"/>
+    <nd ref="10510"/>
+    <nd ref="10511"/>
+    <nd ref="10512"/>
+    <nd ref="10513"/>
+    <nd ref="10514"/>
+    <nd ref="10515"/>
+    <nd ref="10516"/>
+    <nd ref="10517"/>
+    <nd ref="10518"/>
+    <nd ref="10519"/>
+    <nd ref="10520"/>
+    <nd ref="10521"/>
+    <nd ref="10522"/>
+    <nd ref="10523"/>
+    <nd ref="10524"/>
+    <nd ref="10525"/>
+    <nd ref="10526"/>
+    <nd ref="10527"/>
+    <nd ref="10528"/>
+    <nd ref="10529"/>
+    <nd ref="10530"/>
+    <nd ref="10531"/>
+    <nd ref="10532"/>
+    <nd ref="10533"/>
+    <nd ref="10534"/>
+    <nd ref="10535"/>
+    <nd ref="10536"/>
+    <nd ref="10537"/>
+    <nd ref="10538"/>
+    <nd ref="10539"/>
+    <nd ref="10540"/>
+    <nd ref="10541"/>
+    <nd ref="10542"/>
+    <nd ref="10543"/>
+    <nd ref="10544"/>
+    <nd ref="10545"/>
+    <nd ref="10546"/>
+    <nd ref="10547"/>
+    <nd ref="10548"/>
+    <nd ref="10549"/>
+    <nd ref="10550"/>
+    <nd ref="10551"/>
+    <nd ref="10552"/>
+    <nd ref="10553"/>
+    <nd ref="10554"/>
+    <nd ref="10555"/>
+    <nd ref="10556"/>
+    <nd ref="10557"/>
+    <nd ref="10558"/>
+    <nd ref="10559"/>
+    <nd ref="10560"/>
+    <nd ref="10561"/>
+    <nd ref="10562"/>
+    <nd ref="10563"/>
+    <nd ref="10564"/>
+  </way>
+  <node id="10506" visible="true" timestamp="1391211678369.0" cid="248" lat="41.8513284728308" lon="12.448421435424"/>
+  <node id="10507" visible="true" timestamp="1391211701901.0" cid="248" lat="41.8497765133793" lon="12.4486135890052"/>
+  <node id="10508" visible="true" timestamp="1391211836525.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10509" visible="true" timestamp="1391211851564.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10510" visible="true" timestamp="1391211866465.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10511" visible="true" timestamp="1391211886361.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10512" visible="true" timestamp="1391211896468.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10513" visible="true" timestamp="1391211911888.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10514" visible="true" timestamp="1391211926496.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10515" visible="true" timestamp="1391211943298.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10516" visible="true" timestamp="1391211956466.0" cid="248" lat="41.8500027215697" lon="12.447847361195"/>
+  <node id="10517" visible="true" timestamp="1391269018616.0" cid="248" lat="41.8500035920924" lon="12.4479240255746"/>
+  <node id="10518" visible="true" timestamp="1391269018616.0" cid="248" lat="41.8500035920924" lon="12.4479240255746"/>
+  <node id="10519" visible="true" timestamp="1391269026188.0" cid="248" lat="41.8500035920924" lon="12.4479240255746"/>
+  <node id="10520" visible="true" timestamp="1391269041869.0" cid="248" lat="41.8500035920924" lon="12.4479240255746"/>
+  <node id="10521" visible="true" timestamp="1391984943750.0" cid="248" lat="41.8508162011404" lon="12.4485138530934"/>
+  <node id="10522" visible="true" timestamp="1391984967748.0" cid="248" lat="41.8498396478887" lon="12.4486373384226"/>
+  <node id="10523" visible="true" timestamp="1391985092370.0" cid="248" lat="41.8499291007515" lon="12.4480668563979"/>
+  <node id="10524" visible="true" timestamp="1391985100583.0" cid="248" lat="41.8499506783682" lon="12.4480892666548"/>
+  <node id="10525" visible="true" timestamp="1391985113317.0" cid="248" lat="41.8499506783682" lon="12.4480892666548"/>
+  <node id="10526" visible="true" timestamp="1391985120281.0" cid="248" lat="41.8499506783682" lon="12.4480892666548"/>
+  <node id="10527" visible="true" timestamp="1391985130834.0" cid="248" lat="41.8499506783682" lon="12.4480892666548"/>
+  <node id="10528" visible="true" timestamp="1392161174320.0" cid="248" lat="41.8513095475554" lon="12.4484424992782"/>
+  <node id="10529" visible="true" timestamp="1392161183155.0" cid="248" lat="41.8499469432443" lon="12.4486842815476"/>
+  <node id="10530" visible="true" timestamp="1392161195235.0" cid="248" lat="41.8494888871547" lon="12.4478904984314"/>
+  <node id="10531" visible="true" timestamp="1392335007724.0" cid="248" lat="41.8513693187319" lon="12.448421955649"/>
+  <node id="10532" visible="true" timestamp="1392335021763.0" cid="248" lat="41.8499824034484" lon="12.4486709786679"/>
+  <node id="10533" visible="true" timestamp="1392335027389.0" cid="248" lat="41.8495359776488" lon="12.448037286192"/>
+  <node id="10534" visible="true" timestamp="1392421744723.0" cid="248" lat="41.8514194633788" lon="12.4483889564939"/>
+  <node id="10535" visible="true" timestamp="1392421752641.0" cid="248" lat="41.8507441606363" lon="12.4485288185871"/>
+  <node id="10536" visible="true" timestamp="1392421758749.0" cid="248" lat="41.8501262762828" lon="12.4486261536974"/>
+  <node id="10537" visible="true" timestamp="1392421765716.0" cid="248" lat="41.849582950496" lon="12.4482115044739"/>
+  <node id="10538" visible="true" timestamp="1392421906149.0" cid="248" lat="41.8500072423281" lon="12.4478324150105"/>
+  <node id="10539" visible="true" timestamp="1392421914812.0" cid="248" lat="41.8501791250523" lon="12.4478809508396"/>
+  <node id="10540" visible="true" timestamp="1392421920445.0" cid="248" lat="41.8502875122282" lon="12.4479576255641"/>
+  <node id="10541" visible="true" timestamp="1392421927452.0" cid="248" lat="41.8502875122282" lon="12.4479576255641"/>
+  <node id="10542" visible="true" timestamp="1392421934460.0" cid="248" lat="41.8501478093953" lon="12.4479483663639"/>
+  <node id="10543" visible="true" timestamp="1392421941446.0" cid="248" lat="41.8501145286185" lon="12.4479220473829"/>
+  <node id="10544" visible="true" timestamp="1392421948121.0" cid="248" lat="41.8501145286185" lon="12.4479220473829"/>
+  <node id="10545" visible="true" timestamp="1392421960871.0" cid="248" lat="41.8501145286185" lon="12.4479220473829"/>
+  <node id="10546" visible="true" timestamp="1392421962152.0" cid="248" lat="41.8501145286185" lon="12.4479220473829"/>
+  <node id="10547" visible="true" timestamp="1393631072310.0" cid="248" lat="41.8496445957888" lon="12.4483904570971"/>
+  <node id="10548" visible="true" timestamp="1393631072337.0" cid="248" lat="41.8496445957888" lon="12.4483904570971"/>
+  <node id="10549" visible="true" timestamp="1393631073307.0" cid="248" lat="41.8496445957888" lon="12.4483904570971"/>
+  <node id="10550" visible="true" timestamp="1393631073308.0" cid="248" lat="41.8496445957888" lon="12.4483904570971"/>
+  <node id="10551" visible="true" timestamp="1393702235584.0" cid="248" lat="41.8519166222769" lon="12.4488326998602"/>
+  <node id="10552" visible="true" timestamp="1393702242295.0" cid="248" lat="41.8518417644248" lon="12.4484757084586"/>
+  <node id="10553" visible="true" timestamp="1393717589597.0" cid="248" lat="41.8519532521058" lon="12.4481973141629"/>
+  <node id="10554" visible="true" timestamp="1393717596301.0" cid="248" lat="41.8509721942163" lon="12.4484990039399"/>
+  <node id="10555" visible="true" timestamp="1393717603606.0" cid="248" lat="41.8503121219332" lon="12.448612974588"/>
+  <node id="10556" visible="true" timestamp="1393717610610.0" cid="248" lat="41.8497858145072" lon="12.4486038917955"/>
+  <node id="10557" visible="true" timestamp="1393717743685.0" cid="248" lat="41.8499045988572" lon="12.4478932023537"/>
+  <node id="10558" visible="true" timestamp="1393717750685.0" cid="248" lat="41.8499104779875" lon="12.4479519903295"/>
+  <node id="10559" visible="true" timestamp="1393717757596.0" cid="248" lat="41.8499124200255" lon="12.4479166318961"/>
+  <node id="10560" visible="true" timestamp="1393717764601.0" cid="248" lat="41.8499043625359" lon="12.4478636310003"/>
+  <node id="10561" visible="true" timestamp="1393717771595.0" cid="248" lat="41.8499043625359" lon="12.4478636310003"/>
+  <node id="10562" visible="true" timestamp="1393717778311.0" cid="248" lat="41.8499043625359" lon="12.4478636310003"/>
+  <node id="10563" visible="true" timestamp="1393717788634.0" cid="248" lat="41.8501155965614" lon="12.4478979522605"/>
+  <node id="10564" visible="true" timestamp="1393717792300.0" cid="248" lat="41.8501155965614" lon="12.4478979522605"/>
+  <way id="100000018" visible="true" cid="261">
+    <nd ref="10565"/>
+    <nd ref="10566"/>
+    <nd ref="10567"/>
+    <nd ref="10568"/>
+  </way>
+  <node id="10565" visible="true" timestamp="1392909091810.0" cid="261" lat="41.8520017732344" lon="12.4527635341103"/>
+  <node id="10566" visible="true" timestamp="1392909098200.0" cid="261" lat="41.8519050967509" lon="12.4531748108892"/>
+  <node id="10567" visible="true" timestamp="1392909105219.0" cid="261" lat="41.8517661106228" lon="12.4536330398767"/>
+  <node id="10568" visible="true" timestamp="1392909114081.0" cid="261" lat="41.8516881195262" lon="12.4538974323896"/>
+  <way id="100000019" visible="true" cid="266">
+    <nd ref="10569"/>
+    <nd ref="10570"/>
+    <nd ref="10571"/>
+    <nd ref="10572"/>
+    <nd ref="10573"/>
+    <nd ref="10574"/>
+    <nd ref="10575"/>
+    <nd ref="10576"/>
+    <nd ref="10577"/>
+    <nd ref="10578"/>
+    <nd ref="10579"/>
+    <nd ref="10580"/>
+    <nd ref="10581"/>
+    <nd ref="10582"/>
+    <nd ref="10583"/>
+    <nd ref="10584"/>
+    <nd ref="10585"/>
+    <nd ref="10586"/>
+    <nd ref="10587"/>
+    <nd ref="10588"/>
+    <nd ref="10589"/>
+    <nd ref="10590"/>
+    <nd ref="10591"/>
+    <nd ref="10592"/>
+    <nd ref="10593"/>
+    <nd ref="10594"/>
+    <nd ref="10595"/>
+    <nd ref="10596"/>
+    <nd ref="10597"/>
+    <nd ref="10598"/>
+    <nd ref="10599"/>
+    <nd ref="10600"/>
+  </way>
+  <node id="10569" visible="true" timestamp="1391454545828.0" cid="266" lat="41.8492750919167" lon="12.4490563718505"/>
+  <node id="10570" visible="true" timestamp="1391454545829.0" cid="266" lat="41.8492750919167" lon="12.4490563718505"/>
+  <node id="10571" visible="true" timestamp="1391454548113.0" cid="266" lat="41.8492750919167" lon="12.4490563718505"/>
+  <node id="10572" visible="true" timestamp="1391454563111.0" cid="266" lat="41.8490965212423" lon="12.4494036378704"/>
+  <node id="10573" visible="true" timestamp="1391454580264.0" cid="266" lat="41.8510343982711" lon="12.4486785485825"/>
+  <node id="10574" visible="true" timestamp="1391454593113.0" cid="266" lat="41.8518578493052" lon="12.4489463444111"/>
+  <node id="10575" visible="true" timestamp="1391454608142.0" cid="266" lat="41.8511223090355" lon="12.4506465949736"/>
+  <node id="10576" visible="true" timestamp="1391454623121.0" cid="266" lat="41.8508100767943" lon="12.4513674940364"/>
+  <node id="10577" visible="true" timestamp="1391454639063.0" cid="266" lat="41.8506481133636" lon="12.4512172665921"/>
+  <node id="10578" visible="true" timestamp="1391454660081.0" cid="266" lat="41.849886253016" lon="12.4507007223315"/>
+  <node id="10579" visible="true" timestamp="1391454660082.0" cid="266" lat="41.849886253016" lon="12.4507007223315"/>
+  <node id="10580" visible="true" timestamp="1391454686382.0" cid="266" lat="41.849886253016" lon="12.4507007223315"/>
+  <node id="10581" visible="true" timestamp="1391454686842.0" cid="266" lat="41.8490599104267" lon="12.4506002407242"/>
+  <node id="10582" visible="true" timestamp="1391454695031.0" cid="266" lat="41.8489765560163" lon="12.4507560672031"/>
+  <node id="10583" visible="true" timestamp="1391454711807.0" cid="266" lat="41.8489671142536" lon="12.450801798645"/>
+  <node id="10584" visible="true" timestamp="1391454720525.0" cid="266" lat="41.8489671142536" lon="12.450801798645"/>
+  <node id="10585" visible="true" timestamp="1391454720525.0" cid="266" lat="41.8489671142536" lon="12.450801798645"/>
+  <node id="10586" visible="true" timestamp="1391454752072.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10587" visible="true" timestamp="1391454752072.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10588" visible="true" timestamp="1391454753551.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10589" visible="true" timestamp="1391454768588.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10590" visible="true" timestamp="1391454784980.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10591" visible="true" timestamp="1391454798527.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10592" visible="true" timestamp="1391454813900.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10593" visible="true" timestamp="1391454828887.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10594" visible="true" timestamp="1391454843879.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10595" visible="true" timestamp="1391454858869.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10596" visible="true" timestamp="1391454873560.0" cid="266" lat="41.8489796273365" lon="12.4508504143321"/>
+  <node id="10597" visible="true" timestamp="1391454888532.0" cid="266" lat="41.8489531349846" lon="12.4510353674442"/>
+  <node id="10598" visible="true" timestamp="1391454904862.0" cid="266" lat="41.8488125406477" lon="12.4521030801264"/>
+  <node id="10599" visible="true" timestamp="1391454973675.0" cid="266" lat="41.8489116543543" lon="12.4494186760969"/>
+  <node id="10600" visible="true" timestamp="1391454988137.0" cid="266" lat="41.8507099601398" lon="12.4487610431575"/>
+  <way id="100000020" visible="true" cid="269">
+    <nd ref="10601"/>
+    <nd ref="10602"/>
+    <nd ref="10603"/>
+    <nd ref="10604"/>
+    <nd ref="10605"/>
+    <nd ref="10606"/>
+    <nd ref="10607"/>
+    <nd ref="10608"/>
+    <nd ref="10609"/>
+    <nd ref="10610"/>
+    <nd ref="10611"/>
+    <nd ref="10612"/>
+    <nd ref="10613"/>
+    <nd ref="10614"/>
+    <nd ref="10615"/>
+    <nd ref="10616"/>
+    <nd ref="10617"/>
+    <nd ref="10618"/>
+    <nd ref="10619"/>
+  </way>
+  <node id="10601" visible="true" timestamp="1392799648318.0" cid="269" lat="41.851965" lon="12.4481433333333"/>
+  <node id="10602" visible="true" timestamp="1392799655302.0" cid="269" lat="41.851075" lon="12.4484233333333"/>
+  <node id="10603" visible="true" timestamp="1392799662315.0" cid="269" lat="41.8500416666667" lon="12.4486116666667"/>
+  <node id="10604" visible="true" timestamp="1392799673045.0" cid="269" lat="41.8496666666667" lon="12.44844"/>
+  <node id="10605" visible="true" timestamp="1392799676321.0" cid="269" lat="41.8496316666667" lon="12.448245"/>
+  <node id="10606" visible="true" timestamp="1392799683322.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10607" visible="true" timestamp="1392799690299.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10608" visible="true" timestamp="1392799697323.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10609" visible="true" timestamp="1392799704338.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10610" visible="true" timestamp="1392799711314.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10611" visible="true" timestamp="1392799718310.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10612" visible="true" timestamp="1392799725303.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10613" visible="true" timestamp="1392799732310.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10614" visible="true" timestamp="1392799739302.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10615" visible="true" timestamp="1392799746316.0" cid="269" lat="41.8496316666667" lon="12.4482366666667"/>
+  <node id="10616" visible="true" timestamp="1392799753301.0" cid="269" lat="41.8496233333333" lon="12.4482233333333"/>
+  <node id="10617" visible="true" timestamp="1392799760305.0" cid="269" lat="41.8495183333333" lon="12.447895"/>
+  <node id="10618" visible="true" timestamp="1392887507939.0" cid="269" lat="41.8519366666667" lon="12.4530183333333"/>
+  <node id="10619" visible="true" timestamp="1392887514939.0" cid="269" lat="41.8516116666667" lon="12.4540866666667"/>
+  <way id="100000021" visible="true" cid="270">
+    <nd ref="10620"/>
+    <nd ref="10621"/>
+  </way>
+  <node id="10620" visible="true" timestamp="1392292023689.0" cid="270" lat="41.8520401887218" lon="12.4524448070046"/>
+  <node id="10621" visible="true" timestamp="1392292033695.0" cid="270" lat="41.8516204460016" lon="12.4538985141273"/>
+  <way id="100000022" visible="true" cid="274">
+    <nd ref="10622"/>
+    <nd ref="10623"/>
+    <nd ref="10624"/>
+    <nd ref="10625"/>
+    <nd ref="10626"/>
+    <nd ref="10627"/>
+    <nd ref="10628"/>
+    <nd ref="10629"/>
+    <nd ref="10630"/>
+    <nd ref="10631"/>
+    <nd ref="10632"/>
+    <nd ref="10633"/>
+    <nd ref="10634"/>
+    <nd ref="10635"/>
+    <nd ref="10636"/>
+    <nd ref="10637"/>
+    <nd ref="10638"/>
+    <nd ref="10639"/>
+    <nd ref="10640"/>
+    <nd ref="10641"/>
+    <nd ref="10642"/>
+    <nd ref="10643"/>
+    <nd ref="10644"/>
+    <nd ref="10645"/>
+    <nd ref="10646"/>
+    <nd ref="10647"/>
+    <nd ref="10648"/>
+    <nd ref="10649"/>
+    <nd ref="10650"/>
+    <nd ref="10651"/>
+    <nd ref="10652"/>
+    <nd ref="10653"/>
+    <nd ref="10654"/>
+    <nd ref="10655"/>
+    <nd ref="10656"/>
+    <nd ref="10657"/>
+    <nd ref="10658"/>
+    <nd ref="10659"/>
+    <nd ref="10660"/>
+    <nd ref="10661"/>
+  </way>
+  <node id="10622" visible="true" timestamp="1393666043841.0" cid="274" lat="41.8519057380036" lon="12.4488699808717"/>
+  <node id="10623" visible="true" timestamp="1393666051375.0" cid="274" lat="41.8516172328964" lon="12.4493353441358"/>
+  <node id="10624" visible="true" timestamp="1393666059797.0" cid="274" lat="41.8514683283865" lon="12.4497305508703"/>
+  <node id="10625" visible="true" timestamp="1393666065202.0" cid="274" lat="41.8512971280143" lon="12.4502057209611"/>
+  <node id="10626" visible="true" timestamp="1393666072504.0" cid="274" lat="41.8510174239054" lon="12.4509352818131"/>
+  <node id="10627" visible="true" timestamp="1393666078794.0" cid="274" lat="41.8508743867278" lon="12.4513034150004"/>
+  <node id="10628" visible="true" timestamp="1393666087694.0" cid="274" lat="41.8508543539792" lon="12.4513827916235"/>
+  <node id="10629" visible="true" timestamp="1393666093355.0" cid="274" lat="41.8506340775639" lon="12.4518699478358"/>
+  <node id="10630" visible="true" timestamp="1393666099843.0" cid="274" lat="41.8503890326247" lon="12.4524562619627"/>
+  <node id="10631" visible="true" timestamp="1393666107181.0" cid="274" lat="41.8502915930003" lon="12.4527155980468"/>
+  <node id="10632" visible="true" timestamp="1393666114655.0" cid="274" lat="41.8501607095823" lon="12.4528461042792"/>
+  <node id="10633" visible="true" timestamp="1393666127344.0" cid="274" lat="41.849800623022" lon="12.4525566771626"/>
+  <node id="10634" visible="true" timestamp="1393666127784.0" cid="274" lat="41.8496655067429" lon="12.4524591956288"/>
+  <node id="10635" visible="true" timestamp="1393666129975.0" cid="274" lat="41.8496655067429" lon="12.4524591956288"/>
+  <node id="10636" visible="true" timestamp="1393666129975.0" cid="274" lat="41.8496655067429" lon="12.4524591956288"/>
+  <node id="10637" visible="true" timestamp="1393666131865.0" cid="274" lat="41.8496655067429" lon="12.4524591956288"/>
+  <node id="10638" visible="true" timestamp="1393666142179.0" cid="274" lat="41.8496655067429" lon="12.4524591956288"/>
+  <node id="10639" visible="true" timestamp="1393666145908.0" cid="274" lat="41.8496302608401" lon="12.4524453654885"/>
+  <node id="10640" visible="true" timestamp="1393666159065.0" cid="274" lat="41.8494621198624" lon="12.4523784779012"/>
+  <node id="10641" visible="true" timestamp="1393666160310.0" cid="274" lat="41.849653981626" lon="12.4525378178805"/>
+  <node id="10642" visible="true" timestamp="1393666166890.0" cid="274" lat="41.8499188078567" lon="12.4525513127446"/>
+  <node id="10643" visible="true" timestamp="1393666186148.0" cid="274" lat="41.8503233185038" lon="12.452840488404"/>
+  <node id="10644" visible="true" timestamp="1393666186154.0" cid="274" lat="41.8504953989759" lon="12.4526472855359"/>
+  <node id="10645" visible="true" timestamp="1393666187859.0" cid="274" lat="41.8506835727021" lon="12.4525028653443"/>
+  <node id="10646" visible="true" timestamp="1393666196746.0" cid="274" lat="41.8507807608694" lon="12.4523234926164"/>
+  <node id="10647" visible="true" timestamp="1393666201927.0" cid="274" lat="41.8509263545275" lon="12.4522168748081"/>
+  <node id="10648" visible="true" timestamp="1393666209698.0" cid="274" lat="41.8511531269178" lon="12.4520459678024"/>
+  <node id="10649" visible="true" timestamp="1393666216293.0" cid="274" lat="41.851380947046" lon="12.4518706183881"/>
+  <node id="10650" visible="true" timestamp="1393666223178.0" cid="274" lat="41.8516772473231" lon="12.4516150541604"/>
+  <node id="10651" visible="true" timestamp="1393666230764.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10652" visible="true" timestamp="1393666237212.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10653" visible="true" timestamp="1393666243910.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10654" visible="true" timestamp="1393666252368.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10655" visible="true" timestamp="1393666258209.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10656" visible="true" timestamp="1393666264820.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10657" visible="true" timestamp="1393666285223.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10658" visible="true" timestamp="1393666285326.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10659" visible="true" timestamp="1393666285876.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10660" visible="true" timestamp="1393666292918.0" cid="274" lat="41.8517292989418" lon="12.4515801016241"/>
+  <node id="10661" visible="true" timestamp="1393666299921.0" cid="274" lat="41.8519100965932" lon="12.4514057580382"/>
+  <way id="100000023" visible="true" cid="280">
+    <nd ref="10662"/>
+    <nd ref="10663"/>
+    <nd ref="10664"/>
+  </way>
+  <node id="10662" visible="true" timestamp="1392917085948.0" cid="280" lat="41.8519591891908" lon="12.4526488392845"/>
+  <node id="10663" visible="true" timestamp="1392917091405.0" cid="280" lat="41.8517475892821" lon="12.4533124643349"/>
+  <node id="10664" visible="true" timestamp="1392917095036.0" cid="280" lat="41.8515722371753" lon="12.4539637132891"/>
+  <way id="100000024" visible="true" cid="330">
+    <nd ref="10665"/>
+    <nd ref="10666"/>
+    <nd ref="10667"/>
+    <nd ref="10668"/>
+    <nd ref="10669"/>
+    <nd ref="10670"/>
+    <nd ref="10671"/>
+    <nd ref="10672"/>
+    <nd ref="10673"/>
+    <nd ref="10674"/>
+    <nd ref="10675"/>
+    <nd ref="10676"/>
+  </way>
+  <node id="10665" visible="true" timestamp="1392380194900.0" cid="330" lat="41.849482152611" lon="12.448186436668"/>
+  <node id="10666" visible="true" timestamp="1392380194901.0" cid="330" lat="41.849482152611" lon="12.448186436668"/>
+  <node id="10667" visible="true" timestamp="1392380199654.0" cid="330" lat="41.849566726014" lon="12.4481522385031"/>
+  <node id="10668" visible="true" timestamp="1392380206665.0" cid="330" lat="41.849566726014" lon="12.4481522385031"/>
+  <node id="10669" visible="true" timestamp="1392380213692.0" cid="330" lat="41.8495646724477" lon="12.4481892026961"/>
+  <node id="10670" visible="true" timestamp="1392380221246.0" cid="330" lat="41.8495782511309" lon="12.4482410028577"/>
+  <node id="10671" visible="true" timestamp="1392380227874.0" cid="330" lat="41.8496124073863" lon="12.4488512054086"/>
+  <node id="10672" visible="true" timestamp="1392380234968.0" cid="330" lat="41.8489412264898" lon="12.4492076877505"/>
+  <node id="10673" visible="true" timestamp="1392380242529.0" cid="330" lat="41.848711646162" lon="12.4494620785117"/>
+  <node id="10674" visible="true" timestamp="1392380249209.0" cid="330" lat="41.8496513832361" lon="12.4491130560637"/>
+  <node id="10675" visible="true" timestamp="1392380257491.0" cid="330" lat="41.8503841711208" lon="12.448812564835"/>
+  <node id="10676" visible="true" timestamp="1392380262694.0" cid="330" lat="41.8511781888083" lon="12.4485096428543"/>
+  <way id="100000025" visible="true" cid="341">
+    <nd ref="10677"/>
+    <nd ref="10678"/>
+  </way>
+  <node id="10677" visible="true" timestamp="1393372405940.0" cid="341" lat="41.8519315493162" lon="12.4528360113904"/>
+  <node id="10678" visible="true" timestamp="1393372412896.0" cid="341" lat="41.8516156465683" lon="12.4539735553175"/>
+  <way id="100000026" visible="true" cid="342">
+    <nd ref="10679"/>
+    <nd ref="10680"/>
+    <nd ref="10681"/>
+    <nd ref="10682"/>
+    <nd ref="10683"/>
+  </way>
+  <node id="10679" visible="true" timestamp="1393532795041.0" cid="342" lat="41.8516699724095" lon="12.4482750994603"/>
+  <node id="10680" visible="true" timestamp="1393532802409.0" cid="342" lat="41.8504467203071" lon="12.448566697578"/>
+  <node id="10681" visible="true" timestamp="1393532809094.0" cid="342" lat="41.8498258184383" lon="12.4486518003571"/>
+  <node id="10682" visible="true" timestamp="1393532818460.0" cid="342" lat="41.8497402488855" lon="12.4486093448578"/>
+  <node id="10683" visible="true" timestamp="1393532823287.0" cid="342" lat="41.8494646852918" lon="12.4478523706713"/>
+  <way id="100000027" visible="true" cid="350">
+    <nd ref="10684"/>
+    <nd ref="10685"/>
+    <nd ref="10686"/>
+    <nd ref="10687"/>
+    <nd ref="10688"/>
+    <nd ref="10689"/>
+    <nd ref="10690"/>
+    <nd ref="10691"/>
+    <nd ref="10692"/>
+    <nd ref="10693"/>
+    <nd ref="10694"/>
+    <nd ref="10695"/>
+    <nd ref="10696"/>
+  </way>
+  <node id="10684" visible="true" timestamp="1392481061848.0" cid="350" lat="41.8520330306342" lon="12.4488057024988"/>
+  <node id="10685" visible="true" timestamp="1392481070770.0" cid="350" lat="41.851565982426" lon="12.4493573577865"/>
+  <node id="10686" visible="true" timestamp="1392481075813.0" cid="350" lat="41.8513368741661" lon="12.4500310535894"/>
+  <node id="10687" visible="true" timestamp="1392481083174.0" cid="350" lat="41.8510905119709" lon="12.4506455668532"/>
+  <node id="10688" visible="true" timestamp="1392481090688.0" cid="350" lat="41.8507586182101" lon="12.451524357514"/>
+  <node id="10689" visible="true" timestamp="1392481097152.0" cid="350" lat="41.8505054368562" lon="12.4521211233311"/>
+  <node id="10690" visible="true" timestamp="1392481104202.0" cid="350" lat="41.8503071501414" lon="12.4525530042268"/>
+  <node id="10691" visible="true" timestamp="1392481111183.0" cid="350" lat="41.8502114813871" lon="12.4528565099374"/>
+  <node id="10692" visible="true" timestamp="1392481131431.0" cid="350" lat="41.8500446956799" lon="12.4528274194541"/>
+  <node id="10693" visible="true" timestamp="1392481131443.0" cid="350" lat="41.849649447569" lon="12.4525224276597"/>
+  <node id="10694" visible="true" timestamp="1392481132520.0" cid="350" lat="41.8492260853782" lon="12.4521928073897"/>
+  <node id="10695" visible="true" timestamp="1392481132521.0" cid="350" lat="41.8492260853782" lon="12.4521928073897"/>
+  <node id="10696" visible="true" timestamp="1392481261437.0" cid="350" lat="41.8486941455768" lon="12.4494922816899"/>
+  <way id="100000028" visible="true" cid="361">
+    <nd ref="10697"/>
+    <nd ref="10698"/>
+  </way>
+  <node id="10697" visible="true" timestamp="1391415924520.0" cid="361" lat="41.850491752848" lon="12.4485578387976"/>
+  <node id="10698" visible="true" timestamp="1391415939569.0" cid="361" lat="41.8495102319866" lon="12.4480877816677"/>
+  <way id="100000029" visible="true" cid="367">
+    <nd ref="10699"/>
+    <nd ref="10700"/>
+    <nd ref="10701"/>
+    <nd ref="10702"/>
+    <nd ref="10703"/>
+    <nd ref="10704"/>
+  </way>
+  <node id="10699" visible="true" timestamp="1392037862812.0" cid="367" lat="41.8521120038562" lon="12.4525741535572"/>
+  <node id="10700" visible="true" timestamp="1392037868172.0" cid="367" lat="41.8520888067792" lon="12.4526185076263"/>
+  <node id="10701" visible="true" timestamp="1392037878039.0" cid="367" lat="41.8519867508309" lon="12.4530301207595"/>
+  <node id="10702" visible="true" timestamp="1392037888018.0" cid="367" lat="41.8519270778671" lon="12.4532190740728"/>
+  <node id="10703" visible="true" timestamp="1392037898078.0" cid="367" lat="41.8518888240377" lon="12.4532735345381"/>
+  <node id="10704" visible="true" timestamp="1392037908038.0" cid="367" lat="41.8516738301524" lon="12.4540091533048"/>
+  <way id="100000030" visible="true" cid="59">
+    <nd ref="10705"/>
+    <nd ref="10706"/>
+    <nd ref="10707"/>
+    <nd ref="10708"/>
+    <nd ref="10709"/>
+    <nd ref="10710"/>
+    <nd ref="10711"/>
+    <nd ref="10712"/>
+    <nd ref="10713"/>
+    <nd ref="10714"/>
+    <nd ref="10715"/>
+    <nd ref="10716"/>
+    <nd ref="10717"/>
+    <nd ref="10718"/>
+    <nd ref="10719"/>
+    <nd ref="10720"/>
+    <nd ref="10721"/>
+    <nd ref="10722"/>
+    <nd ref="10723"/>
+    <nd ref="10724"/>
+    <nd ref="10725"/>
+    <nd ref="10726"/>
+  </way>
+  <node id="10705" visible="true" timestamp="1391426847424.0" cid="59" lat="41.8497043023228" lon="12.4485217886356"/>
+  <node id="10706" visible="true" timestamp="1391426847425.0" cid="59" lat="41.8497043023228" lon="12.4485217886356"/>
+  <node id="10707" visible="true" timestamp="1391426850548.0" cid="59" lat="41.8496285455807" lon="12.4483117094463"/>
+  <node id="10708" visible="true" timestamp="1391426850549.0" cid="59" lat="41.8496285455807" lon="12.4483117094463"/>
+  <node id="10709" visible="true" timestamp="1391426852648.0" cid="59" lat="41.8495609006457" lon="12.4481773733744"/>
+  <node id="10710" visible="true" timestamp="1391426868274.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10711" visible="true" timestamp="1391426882132.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10712" visible="true" timestamp="1391426896631.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10713" visible="true" timestamp="1391426912888.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10714" visible="true" timestamp="1391426926687.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10715" visible="true" timestamp="1391426942210.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10716" visible="true" timestamp="1391426957084.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10717" visible="true" timestamp="1391426974391.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10718" visible="true" timestamp="1391426987065.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10719" visible="true" timestamp="1391427002482.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10720" visible="true" timestamp="1391427016654.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10721" visible="true" timestamp="1391427031670.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10722" visible="true" timestamp="1391427046633.0" cid="59" lat="41.8495198940878" lon="12.4482048361349"/>
+  <node id="10723" visible="true" timestamp="1391427062032.0" cid="59" lat="41.8497069824223" lon="12.4485385669138"/>
+  <node id="10724" visible="true" timestamp="1391427078506.0" cid="59" lat="41.8492247054882" lon="12.4490694021373"/>
+  <node id="10725" visible="true" timestamp="1391427092050.0" cid="59" lat="41.8488874368372" lon="12.4494476446482"/>
+  <node id="10726" visible="true" timestamp="1391427107071.0" cid="59" lat="41.8507167780922" lon="12.4487737281091"/>
+  <way id="100000031" visible="true" cid="7">
+    <nd ref="10727"/>
+    <nd ref="10728"/>
+    <nd ref="10729"/>
+    <nd ref="10730"/>
+    <nd ref="10731"/>
+    <nd ref="10732"/>
+    <nd ref="10733"/>
+    <nd ref="10734"/>
+    <nd ref="10735"/>
+    <nd ref="10736"/>
+    <nd ref="10737"/>
+    <nd ref="10738"/>
+    <nd ref="10739"/>
+    <nd ref="10740"/>
+    <nd ref="10741"/>
+    <nd ref="10742"/>
+    <nd ref="10743"/>
+  </way>
+  <node id="10727" visible="true" timestamp="1392502049253.0" cid="7" lat="41.8520012329638" lon="12.4526582501758"/>
+  <node id="10728" visible="true" timestamp="1392502057353.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10729" visible="true" timestamp="1392502063432.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10730" visible="true" timestamp="1392502070127.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10731" visible="true" timestamp="1392502077443.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10732" visible="true" timestamp="1392502084190.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10733" visible="true" timestamp="1392502094230.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10734" visible="true" timestamp="1392502098109.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10735" visible="true" timestamp="1392502105138.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10736" visible="true" timestamp="1392502112533.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10737" visible="true" timestamp="1392502119448.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10738" visible="true" timestamp="1392502127191.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10739" visible="true" timestamp="1392502133135.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10740" visible="true" timestamp="1392502140145.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10741" visible="true" timestamp="1392502148161.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10742" visible="true" timestamp="1392502154502.0" cid="7" lat="41.851841132127" lon="12.4532525177962"/>
+  <node id="10743" visible="true" timestamp="1392502161433.0" cid="7" lat="41.8516851015203" lon="12.4539560326476"/>
+</osm>

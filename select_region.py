@@ -3,7 +3,11 @@ import os
 from lxml import etree
 import pandas as pd
 
-osm_file_path = 'osm/1.osm'
+###
+# 提取指定区域的所有轨迹点
+###
+
+osm_file_path = 'osm/5.osm'
 data_dir = 'split'
 
 root = etree.parse(osm_file_path).getroot()
