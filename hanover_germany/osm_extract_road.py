@@ -1,6 +1,6 @@
 from lxml import etree
 
-osm_source = r'C:\Users\legen\Documents\1A-论文\数据集\Hannover, Germany\ground_truth\osm_source_map'
+osm_source = 'osm/hanover_512x512_map.osm'
 
 tree = etree.parse(osm_source)
 
@@ -22,13 +22,13 @@ for relation in osm.findall(".//relation"):
 
 # Roads
 valid_highways_v = {
-    # "primary",
-    # "motorway",
-    # "trunk",
-    # "secondary",
-    # "tertiary",
+    "primary",
+    "motorway",
+    "trunk",
+    "secondary",
+    "tertiary",
     "unclassified",
-    # "residential"
+    "residential"
 }
 
 # 有效节点 id
@@ -48,4 +48,4 @@ for node in osm.findall(".//node"):
     if node.get("id") not in valid_node_ids:
         osm.remove(node)
 
-tree.write(r'C:\Users\legen\Documents\ArcGIS\osm\road_osm_map_test.osm', encoding='utf-8')
+tree.write(r'osm\hanover_512x512_map-roads.osm', encoding='utf-8')
