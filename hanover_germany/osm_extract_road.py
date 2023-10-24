@@ -22,13 +22,19 @@ for relation in osm.findall(".//relation"):
 
 # Roads
 valid_highways_v = {
-    "primary",
-    "motorway",
-    "trunk",
-    "secondary",
+    "primary",  # 国道
+    "motorway",  # 高速公路
+    "trunk",  # 主干道
+    "secondary",  # 省道
     "tertiary",
     "unclassified",
-    "residential"
+    "residential",
+    # "primary_link",
+    # "secondary_link",
+    # "trunk_link",
+    # "motorway_link",
+    # "tertiary_link",
+    # "road"
 }
 
 # 有效节点 id
