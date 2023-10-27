@@ -7,6 +7,7 @@ import math
 from lxml import etree
 import torch
 import matplotlib.pyplot as plt
+import cv2
 
 # osm 源数据文件(已提取道路的)
 osm_source = r'osm/hanover_512x512_map-roads.osm'
@@ -130,4 +131,4 @@ for way in osm.findall(".//way"):
 vector = vector * 255
 # 保存图片
 plt.imsave('data/region_demo_roads.png', vector, cmap='gray', vmin=0, vmax=255)
-
+cv2.imwrite('data/region_demo_roads_cv2.png', vector.numpy())
