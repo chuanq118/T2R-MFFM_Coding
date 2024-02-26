@@ -1,0 +1,15 @@
+[INFO] input:  image_gps
+[INFO] channels:  4
+epoch 1/1
+training
+  0%|          | 0/7 [00:00<?, ?it/s]iter: 0 loss: 1.5427 metrics: 0.1613:   0%|          | 0/7 [00:14<?, ?it/s]iter: 0 loss: 1.5427 metrics: 0.1613:  14%|█▍        | 1/7 [00:14<01:26, 14.37s/it]iter: 1 loss: 1.7048 metrics: 0.0749:  14%|█▍        | 1/7 [00:27<01:26, 14.37s/it]iter: 1 loss: 1.7048 metrics: 0.0749:  29%|██▊       | 2/7 [00:27<01:07, 13.48s/it]iter: 2 loss: 1.6475 metrics: 0.0867:  29%|██▊       | 2/7 [00:45<01:07, 13.48s/it]iter: 2 loss: 1.6475 metrics: 0.0867:  43%|████▎     | 3/7 [00:45<01:02, 15.74s/it]iter: 3 loss: 1.3218 metrics: 0.3379:  43%|████▎     | 3/7 [01:11<01:02, 15.74s/it]iter: 3 loss: 1.3218 metrics: 0.3379:  57%|█████▋    | 4/7 [01:11<00:58, 19.66s/it]iter: 4 loss: 1.5604 metrics: 0.1073:  57%|█████▋    | 4/7 [01:35<00:58, 19.66s/it]iter: 4 loss: 1.5604 metrics: 0.1073:  71%|███████▏  | 5/7 [01:35<00:42, 21.44s/it]iter: 5 loss: 1.2211 metrics: 0.4365:  71%|███████▏  | 5/7 [02:00<00:42, 21.44s/it]iter: 5 loss: 1.2211 metrics: 0.4365:  86%|████████▌ | 6/7 [02:00<00:22, 22.42s/it]iter: 6 loss: 1.4995 metrics: 0.1360:  86%|████████▌ | 6/7 [02:25<00:22, 22.42s/it]iter: 6 loss: 1.4995 metrics: 0.1360: 100%|██████████| 7/7 [02:25<00:00, 23.26s/it]iter: 6 loss: 1.4995 metrics: 0.1360: 100%|██████████| 7/7 [02:25<00:00, 20.81s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]validating
+iter: 0 loss: 1.4273 metrics: 0.0145:   0%|          | 0/1 [00:10<?, ?it/s]iter: 0 loss: 1.4273 metrics: 0.0145: 100%|██████████| 1/1 [00:10<00:00, 10.81s/it]iter: 0 loss: 1.4273 metrics: 0.0145: 100%|██████████| 1/1 [00:11<00:00, 11.25s/it]
+testing
+  0%|          | 0/1 [00:00<?, ?it/s]iter: 0 loss: 1.5425 metrics: 0.0092:   0%|          | 0/1 [00:11<?, ?it/s]iter: 0 loss: 1.5425 metrics: 0.0092: 100%|██████████| 1/1 [00:11<00:00, 11.44s/it]iter: 0 loss: 1.5425 metrics: 0.0092: 100%|██████████| 1/1 [00:11<00:00, 11.87s/it]
+epoch finished
+train_loss: 1.4997 train_metrics: tensor([0.6067, 0.7599, 0.2021, 0.1915])
+val_loss: 1.4273 val_metrics: tensor([0.8437, 0.0145, 0.7829, 0.0145])
+test_loss: 1.5425 val_metrics: tensor([0.9300, 0.0095, 0.2386, 0.0092])
+
+[DONE] training finished

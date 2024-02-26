@@ -25,10 +25,14 @@ class Solver:
 
     def forward(self, volatile=False):
         # self.img = Variable(self.img.cuda(), volatile=volatile)
-        self.img = Variable(self.img.cpu(), volatile=volatile)
+        # self.img = Variable(self.img.cpu(), volatile=volatile)
+        with torch.no_grad():
+            self.img = self.img.cpu()
         if self.mask is not None:
             # self.mask = Variable(self.mask.cuda(), volatile=volatile)
-            self.mask = Variable(self.mask.cpu(), volatile=volatile)
+            # self.mask = Variable(self.mask.cpu(), volatile=volatile)
+            with torch.no_grad():
+                self.mask = self.mask.cpu()
 
     def optimize(self):
         self.net.train()

@@ -157,17 +157,17 @@ if __name__ == "__main__":
     parser.add_argument('--batch_size', '-b', type=int, default=1)
     # local path
     parser.add_argument('--sat_dir', '-s', type=str,
-                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\image')
+                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\image_min')
     # local path
     parser.add_argument('--mask_dir', '-M', type=str,
-                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\mask')
+                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\mask_min')
     parser.add_argument('--test_sat_dir', type=str,
-                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\image')
+                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\test_image_min')
     parser.add_argument('--test_mask_dir', type=str,
-                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\mask')
+                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\test_mask_min')
     # local path
     parser.add_argument('--gps_dir', '-g', type=str,
-                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\gps')
+                        default=r'C:\Users\legen\Documents\001_dataset\BJRoad\train_val\gps_min')
     parser.add_argument('--gps_type', '-t', type=str, default='image')
     parser.add_argument('--feature_embedding', '-F', type=str, default='')
     parser.add_argument('--gps_augmentation', '-A', type=str, default='')
