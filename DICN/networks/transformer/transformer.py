@@ -6,7 +6,6 @@ from torchvision import models
 from functools import partial
 
 
-
 class OneHot(nn.Module):
     def __init__(self, depth):
         super(OneHot, self).__init__()
@@ -18,6 +17,7 @@ class OneHot(nn.Module):
     def forward(self, input_):
         return self.emb(input_)
 
+
 class SE_Block(nn.Module):
     def __init__(self, ch_in, reduction=16):
         super(SE_Block, self).__init__()
@@ -28,11 +28,13 @@ class SE_Block(nn.Module):
             nn.Linear(ch_in // reduction, ch_in, bias=False),
             nn.Sigmoid()
         )
+
     def forward(self, x):
         b, c, _, _ = x.size()
         y = self.avg_pool(x).view(b, c)
         y = self.fc(y).view(b, c, 1, 1)
         return x * y.expand_as(x)
+
 
 class PositionEmbeddingSine(nn.Module):
     """
@@ -69,6 +71,7 @@ class PositionEmbeddingSine(nn.Module):
         pos_y = torch.stack((pos_y[:, :, :, 0::2].sin(), pos_y[:, :, :, 1::2].cos()), dim=4).flatten(3)
         pos = torch.cat((pos_y, pos_x), dim=3).permute(0, 3, 1, 2)
         return pos
+
 
 class SelfAttention(nn.Module):
     """
@@ -108,6 +111,7 @@ class SelfAttention(nn.Module):
         y = self.resid_drop(self.proj(y))
         return y
 
+
 class CrossAttention(nn.Module):
     def __init__(self, n_embd, n_head, attn_pdrop, resid_pdrop):
         super().__init__()
@@ -144,6 +148,7 @@ class CrossAttention(nn.Module):
         y = self.resid_drop(self.proj(y))
         return y
 
+
 class Block(nn.Module):
     """ an unassuming Transformer block """
 
@@ -168,6 +173,7 @@ class Block(nn.Module):
             nn.Dropout(resid_pdrop),
         )
         self.crossattn = CrossAttention(n_embd, n_head, attn_pdrop, resid_pdrop)
+
     def forward(self, x):
         x_value = x
         x = x + self.attn(self.ln1(x))
@@ -177,6 +183,7 @@ class Block(nn.Module):
         x = x + self.mlp2(self.ln5(x))
 
         return x
+
 
 class SAFM(nn.Module):
     def __init__(self, n_embd, n_head, block_exp, n_layer,
@@ -339,6 +346,7 @@ class SegTrans(nn.Module):
     def __init__(self, num_classes=1, num_channels=3, encoder_1dconv=0,  decoder_1dconv=0, pretrain=True):
         super().__init__()
 
+        # 遥感图像的ResNet编码器
         filters = [64, 128, 256, 512]
         self.num_channels = num_channels
         resnet = models.resnet34(pretrained=True)
@@ -368,6 +376,9 @@ class SegTrans(nn.Module):
             self.encoder4 = myresnet._make_layer(
                 basicBlock, 512, layers[3], stride=2)
 
+        # GPS特征的ResNet编码器 self.firstconv_gpscnn、self.firstbn_gpscnn、self.firstrelu_gpscnn 和
+        # self.firstmaxpool_gpscnn是对应于GPS特征的第一层卷积、批归一化、激活函数和最大池化层
+        # self.encoder1_gpscnn、self.encoder2_gpscnn、self.encoder3_gpscnn 和 self.encoder4_gpscnn是GPS特征提取的四个编码器层
         gpscnn = models.resnet34(pretrained=True)
         self.num_channels_gpscnn = 3
         if self.num_channels_gpscnn < 3:
@@ -515,12 +526,29 @@ class SegTrans(nn.Module):
                                  )
 
     def forward(self, input_):
+        # channels = input_.shape[1]
+        # if channels == 4:
+        #     gps_feature = input_[:, 3, :, :].unsqueeze(1)
+        #     gps_feature = gps_feature.repeat(1, 3, 1, 1)
+        # elif channels ==6:
+        #     gps_feature = input_[:, 3:, :, :]
+        # x = input_[:, :3, :, :]
+
+        # 获取输入数据的通道数
         channels = input_.shape[1]
+
+        # 如果通道数为4，说明只有一个GPS特征通道
         if channels == 4:
+            # 提取第四个通道作为GPS特征，并增加一个维度
             gps_feature = input_[:, 3, :, :].unsqueeze(1)
+            # 将GPS特征复制三次，以匹配其他特征的维度
             gps_feature = gps_feature.repeat(1, 3, 1, 1)
-        elif channels ==6:
+        # 如果通道数为6，说明有多个GPS特征通道
+        elif channels == 6:
+            # 直接提取最后三个通道作为GPS特征
             gps_feature = input_[:, 3:, :, :]
+
+        # 提取前三个通道作为其他特征
         x = input_[:, :3, :, :]
 
         # Encoder
