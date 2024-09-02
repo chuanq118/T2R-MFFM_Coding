@@ -3,8 +3,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torchvision import models
 
+from FUSE_1.networks.basic_blocks import DecoderBlock
 
 
+# 道路特征阈融合模块
 class PixelWiseDFF(nn.Module):
     def __init__(self, num_channels, init_weight1=0.5, init_weight2=0.5):
         """
@@ -32,6 +34,7 @@ class PixelWiseDFF(nn.Module):
         return output
 
 
+# 多尺度特征融合模块
 class MFFM(nn.Module):
     # 特征 shape channel_nums
     #    512 -> 64 64
@@ -52,31 +55,40 @@ class MFFM(nn.Module):
                                       kernel_size=1, stride=1, padding=0, bias=False)
 
     def forward(self, fused_feature1, fused_feature2, fused_feature3, fused_feature4):
-        # 四个卷积
+        # 四个融合道路特征块 统一 channel
         fused_feature1 = self.mff_conv2d_1(fused_feature1)
         fused_feature2 = self.mff_conv2d_2(fused_feature2)
         fused_feature3 = self.mff_conv2d_3(fused_feature3)
         fused_feature4 = self.mff_conv2d_4(fused_feature4)
         # reshape
-        reshaped_ff1 = F.interpolate(fused_feature1, size=(self.shape_n, self.shape_n), mode='bilinear', align_corners=False)
-        reshaped_ff2 = F.interpolate(fused_feature2, size=(self.shape_n, self.shape_n), mode='bilinear', align_corners=False)
-        reshaped_ff3 = F.interpolate(fused_feature3, size=(self.shape_n, self.shape_n), mode='bilinear', align_corners=False)
+        reshaped_ff1 = F.interpolate(fused_feature1, size=(self.shape_n, self.shape_n), mode='bilinear',
+                                     align_corners=False)
+        reshaped_ff2 = F.interpolate(fused_feature2, size=(self.shape_n, self.shape_n), mode='bilinear',
+                                     align_corners=False)
+        reshaped_ff3 = F.interpolate(fused_feature3, size=(self.shape_n, self.shape_n), mode='bilinear',
+                                     align_corners=False)
         reshaped_ff4 = fused_feature4
-        # fused_feature4 一般不需要调整，因为它已经是 64 x 64
+        # fused_feature4 一般不需要调整，默认已经是 64 x 64
         if self.shape_n != 64:
-            reshaped_ff4 = F.interpolate(fused_feature4, size=(self.shape_n, self.shape_n), mode='bilinear', align_corners=False)
+            reshaped_ff4 = F.interpolate(fused_feature4, size=(self.shape_n, self.shape_n), mode='bilinear',
+                                         align_corners=False)
         # 计算注意力参数矩阵
         # 计算点乘
         attention_scores = reshaped_ff1 * reshaped_ff2 * reshaped_ff3 * reshaped_ff4
         # 计算指数
         exp_attention_scores = torch.exp(attention_scores)
         # 计算归一化因子
-        sum_exp_attention_scores = torch.sum(exp_attention_scores.view(exp_attention_scores.size(0), -1), dim=1, keepdim=True)
+        sum_exp_attention_scores = torch.sum(exp_attention_scores.view(exp_attention_scores.size(0), -1), dim=1,
+                                             keepdim=True)
         # 计算注意力矩阵 A
         attention_matrix = exp_attention_scores / sum_exp_attention_scores.view(-1, 1, 1, 1)
-        return attention_matrix
+        # 计算新的特征矩阵块
+        weighted_ff4 = attention_matrix * reshaped_ff4
+        # 加上原始的 reshaped_ff4，形成残差连接，作为最终的道路特征输出
+        return weighted_ff4 + reshaped_ff4
 
 
+# 道路多尺度特征融合网络
 class MFFRNet(nn.Module):
 
     def __init__(self, num_classes=1, num_channels=3):
@@ -104,7 +116,7 @@ class MFFRNet(nn.Module):
         # 因为它们的输入通道数不匹配。这种情况下，我们创建一个新的卷积层来从头开始学习特征。
         if num_channels < 3:
             self.first_conv_imgchan = nn.Conv2d(num_channels, filters[0],
-                                        kernel_size=7, stride=2, padding=3, bias=False)
+                                                kernel_size=7, stride=2, padding=3, bias=False)
         else:
             # resnet.conv1 => (输入通道数：3, 输出通道数：64, 卷积核大小：7x7, 步幅：2x2, 填充：3x3, bias=False)
             self.first_conv_imgchan = imgchan_resnet.conv1
@@ -165,6 +177,86 @@ class MFFRNet(nn.Module):
         self.pixel_wise_dff_3 = PixelWiseDFF(num_channels=filters[2], init_weight1=0.6, init_weight2=0.4)
         self.pixel_wise_dff_4 = PixelWiseDFF(num_channels=filters[3], init_weight1=0.8, init_weight2=0.2)
 
+        # 创建多尺度融合模块
+        self.mff_module = MFFM(filters=filters, out_channels=512)
 
+        # 道路解码块
+        self.decoderBlock = DecoderBlock
+        # 第四道路特征解码块
+        self.decoder4 = self.decoderBlock(filters[3], filters[2])
+        # 第三道路特征解码块
+        self.decoder3 = self.decoderBlock(filters[2], filters[1])
+        # 第二道路特征解码块
+        self.decoder2 = self.decoderBlock(filters[1], filters[0])
+        # 第一道路特征解码块
+        self.decoder1 = self.decoderBlock(filters[0], filters[0])
 
+    def forward(self, img_features, gps_features):
 
+        # ----------------------------
+        # 1. 初步道路生成模块 (Initial Road Generation Modules)
+        # ----------------------------
+
+        # 图像通道 (Image Channel)
+        # img_features 通过初始的卷积层 -> BN -> ReLU -> MaxPool
+        img_features = self.first_conv_imgchan(img_features)
+        img_features = self.first_bn_imgchan(img_features)
+        img_features = self.first_relu_imgchan(img_features)
+        img_features = self.first_maxpool_imgchan(img_features)
+
+        # GPS通道 (GPS Channel)
+        # gps_features 通过初始的卷积层 -> BN -> ReLU -> MaxPool
+        gps_features = self.first_conv_gpschan(gps_features)
+        gps_features = self.first_bn_gpschan(gps_features)
+        gps_features = self.first_relu_gpschan(gps_features)
+        gps_features = self.first_maxpool_gpschan(gps_features)
+
+        # ----------------------------
+        # 2. 遥感与GPS的道路特征编码 (Road Feature Encoding for Image and GPS Channels)
+        # ----------------------------
+
+        # 遥感通道编码块 (Image Channel Encoding Blocks)
+        img_encoded1 = self.image_encoder1(img_features)  # 第一层编码 (64 channels)
+        img_encoded2 = self.image_encoder2(img_encoded1)  # 第二层编码 (128 channels)
+        img_encoded3 = self.image_encoder3(img_encoded2)  # 第三层编码 (256 channels)
+        img_encoded4 = self.image_encoder4(img_encoded3)  # 第四层编码 (512 channels)
+
+        # 轨迹点通道编码块 (GPS Channel Encoding Blocks)
+        gps_encoded1 = self.gpschan_encoder1(gps_features)  # 第一层编码 (64 channels)
+        gps_encoded2 = self.gpschan_encoder2(gps_encoded1)  # 第二层编码 (128 channels)
+        gps_encoded3 = self.gpschan_encoder3(gps_encoded2)  # 第三层编码 (256 channels)
+        gps_encoded4 = self.gpschan_encoder4(gps_encoded3)  # 第四层编码 (512 channels)
+
+        # ----------------------------
+        # 3. 像素级阈融合道路特征 (Pixel-wise Road Feature Fusion)
+        # ----------------------------
+
+        # 通过像素级融合模块 (PixelWiseDFF) 融合图像和GPS的道路特征
+        fused_feature1 = self.pixel_wise_dff_1(img_encoded1, gps_encoded1)  # 第一层融合 (64 channels)
+        fused_feature2 = self.pixel_wise_dff_2(img_encoded2, gps_encoded2)  # 第二层融合 (128 channels)
+        fused_feature3 = self.pixel_wise_dff_3(img_encoded3, gps_encoded3)  # 第三层融合 (256 channels)
+        fused_feature4 = self.pixel_wise_dff_4(img_encoded4, gps_encoded4)  # 第四层融合 (512 channels)
+
+        # ----------------------------
+        # 4. 多尺度特征融合 (Multi-Scale Feature Fusion)
+        # ----------------------------
+        # TODO 修改 MFFM (Multi-Scale Feature Fusion Module) 名称
+        # 通过多尺度融合模块 (MFFM) 融合四个层级的特征
+        mff_feature = self.mff_module(fused_feature1, fused_feature2, fused_feature3, fused_feature4)
+
+        # ----------------------------
+        # 5. 道路解码块 (Road Decoding Blocks)
+        # ----------------------------
+
+        # 通过解码块逐步解码融合后的特征
+        # 第四层解码 (512 -> 256 channels)
+        decoded4 = self.decoder4(mff_feature)
+        # 第三层解码 (256 -> 128 channels)
+        decoded3 = self.decoder3(decoded4)
+        # 第二层解码 (128 -> 64 channels)
+        decoded2 = self.decoder2(decoded3)
+        # 第一层解码 (64 -> 64 channels)
+        decoded1 = self.decoder1(decoded2)
+        # TODO: 再加上一层反卷积
+        final_output = decoded1
+        return final_output
